@@ -1,34 +1,54 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Business Directory Search</title>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Duquench</title>
     <link rel="stylesheet" href="style.css">
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script>
-      $(document).ready(function() {
-        $('form').submit(function(event) {
-          event.preventDefault();
-          let searchTerm = $('#search-term').val();
-          let searchLocation = $('#search-location').val();
-          $.post('search.php', { 'search-term': searchTerm, 'search-location': searchLocation }, function(data) {
-            $('#search-results').html(data);
-          });
-        });
-      });
-    </script>
-  </head>
-  <body>
-    <nav>
-      <h1>Business Directory</h1>
-      <form action="search.php" method="post">
-        <label for="search-term">Search All Fields:</label>
-        <input type="text" id="search-term" name="search-term">
-        <label for="search-location">Search by Location:</label>
-        <input type="text" id="search-location" name="search-location">
-        <button type="submit">Search</button>
-      </form>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Duquench</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
     </nav>
-    <div id="search-results"></div>
-  </body>
-  
+
+    <div id="home-search" class="container-fluid bg-dark">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <h1 class="text-white mt-5">Find Your Dream Home</h1>
+          <form class="form-inline justify-content-center mt-4">
+            <div class="form-group mx-sm-3 mb-2">
+              <input type="text" class="form-control" placeholder="City, State or Zip">
+            </div>
+            <div class="form-group mx-sm-3 mb-2">
+              <input type="text" class="form-control" placeholder="Property Type">
+            </div>
+            <button type="submit" class="btn btn-primary mb-2">Search</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
 </html>
