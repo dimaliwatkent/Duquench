@@ -26,7 +26,7 @@ foreach ($xml->business as $business) {
 if (count($matches) > 0) {
     foreach ($matches as $match) {
         echo "<h2>{$match->name}</h2>";
-        // echo "<img src='{$match->logo}' alt='Logo'>";
+        echo "<img src='{$match->logo}' alt='Logo'>";
         echo "<p>{$match->description}</p>";
         echo "<p>Address: {$match->address}</p>";
         echo "<p>Phone: {$match->phone}</p>";
