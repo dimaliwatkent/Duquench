@@ -1,67 +1,107 @@
-// Get all the buttons
-const buttons = document.querySelectorAll('#municipalities-button button');
+const openingTimeInput = document.getElementById("opening-time");
+const closingTimeInput = document.getElementById("closing-time");
+const timeInput = document.getElementById("time");
 
-// Set the initial value of the active button to the 'All' button
-let activeButtonDataFilter = '';
-console.log(activeButtonDataFilter);
+const mondayCheckbox = document.getElementById("mondayCheck");
+const tuesdayCheckbox = document.getElementById("tuesdayCheck");
+const wednesdayCheckbox = document.getElementById("wednesdayCheck");
+const thursdayCheckbox = document.getElementById("thursdayCheck");
+const fridayCheckbox = document.getElementById("fridayCheck");
+const saturdayCheckbox = document.getElementById("saturdayCheck");
+const sundayCheckbox = document.getElementById("sundayCheck");
 
-// Call the search function with the initial value of activeButtonDataFilter
-search(activeButtonDataFilter);
+const mondayInput = document.getElementById("monday");
+const tuesdayInput = document.getElementById("tuesday");
+const wednesdayInput = document.getElementById("wednesday");
+const thursdayInput = document.getElementById("thursday");
+const fridayInput = document.getElementById("friday");
+const saturdayInput = document.getElementById("saturday");
+const sundayInput = document.getElementById("sunday");
 
-// Loop through each button and add a click event listener
-buttons.forEach(button => {
-  button.addEventListener('click', () => {
+function updateTime() {
+  const openingTime = openingTimeInput.value;
+  const closingTime = closingTimeInput.value;
 
-    // Remove the 'active' class from all buttons
-    buttons.forEach(btn => btn.classList.remove('active'));
+  const openingTimeFormatted = formatTime(openingTime);
+  const closingTimeFormatted = formatTime(closingTime);
 
-    // Add the 'active' class to the clicked button
-    button.classList.add('active');
-
-    // Get the value of the 'data-filter' attribute of the active button
-    activeButtonDataFilter = button.getAttribute('data-filter');
-
-    // Log the value of data-filter of the active button to the console
-    console.log(activeButtonDataFilter);
-
-    // Call the search function with the value of activeButtonDataFilter
-    search(activeButtonDataFilter);
-
-  });
-});
-
-//=========================
-
-function search(activeButtonDataFilter) {
-  // Create a new XMLHttpRequest object
-  const xhr = new XMLHttpRequest();
-
-  // Set the URL of the PHP file
-  const url = 'search.php';
-
-  // Set the request method to POST
-  xhr.open('POST', url, true);
-
-  // Set the request header
-  xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
-
-  // Define a function to handle the response
-  xhr.onreadystatechange = function() {
-    if (xhr.readyState === XMLHttpRequest.DONE) {
-      if (xhr.status === 200) {
-        // Update the HTML with the search results
-        document.getElementById('results-container').innerHTML = xhr.responseText;
-      } else {
-        console.error('Error:', xhr.statusText);
-      }
-    }
-  };
-
-  // Define the POST parameters
-  const params = `search-location=${activeButtonDataFilter}`;
-
-  // Send the AJAX request with the POST parameters
-  xhr.send(params);
+  const timeString = `${openingTimeFormatted} - ${closingTimeFormatted}`;
+  timeInput.value = timeString;
 }
 
+function formatTime(time) {
+  const [hours, minutes] = time.split(":");
+  const hoursInt = parseInt(hours);
+  const isPM = hoursInt >= 12;
 
+  let formattedHours = hoursInt % 12;
+  if (formattedHours === 0) {
+    formattedHours = 12;
+  }
+
+  const formattedMinutes = minutes.padStart(2, "0");
+  const formattedTime = `${formattedHours}:${formattedMinutes} ${
+    isPM ? "PM" : "AM"
+  }`;
+
+  return formattedTime;
+}
+
+openingTimeInput.addEventListener("change", updateTime);
+closingTimeInput.addEventListener("change", updateTime);
+
+mondayCheckbox.addEventListener("change", () => {
+  if (mondayCheckbox.checked) {
+    mondayInput.value = timeInput.value;
+  } else {
+    mondayInput.value = "Closed";
+  }
+});
+
+tuesdayCheckbox.addEventListener("change", () => {
+  if (tuesdayCheckbox.checked) {
+    tuesdayInput.value = timeInput.value;
+  } else {
+    tuesdayInput.value = "Closed";
+  }
+});
+
+wednesdayCheckbox.addEventListener("change", () => {
+  if (wednesdayCheckbox.checked) {
+    wednesdayInput.value = timeInput.value;
+  } else {
+    wednesdayInput.value = "Closed";
+  }
+});
+
+thursdayCheckbox.addEventListener("change", () => {
+  if (thursdayCheckbox.checked) {
+    thursdayInput.value = timeInput.value;
+  } else {
+    thursdayInput.value = "Closed";
+  }
+});
+
+fridayCheckbox.addEventListener("change", () => {
+  if (fridayCheckbox.checked) {
+    fridayInput.value = timeInput.value;
+  } else {
+    fridayInput.value = "Closed";
+  }
+});
+
+saturdayCheckbox.addEventListener("change", () => {
+  if (saturdayCheckbox.checked) {
+    saturdayInput.value = timeInput.value;
+  } else {
+    saturdayInput.value = "Closed";
+  }
+});
+
+sundayCheckbox.addEventListener("change", () => {
+  if (sundayCheckbox.checked) {
+    sundayInput.value = timeInput.value;
+  } else {
+    sundayInput.value = "Closed";
+  }
+});
