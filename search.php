@@ -25,14 +25,29 @@ foreach ($xml->business as $business) {
 // Output the search results as HTML
 if (count($matches) > 0) {
     foreach ($matches as $match) {
-        echo "<h2>{$match->name}</h2>";
-        echo "<img src='{$match->logo}' alt='Logo'>";
-        echo "<p>{$match->description}</p>";
-        echo "<p>Address: {$match->address}</p>";
-        echo "<p>Phone: {$match->phone}</p>";
-        echo "<p>Email: {$match->email}</p>";
-        echo "<p>Website: {$match->website}</p>";
-        echo "<hr>";
+        echo "<div class='col-lg-3 col-md-4 col-sm-6 col-12'>
+
+        <div class='business-thumbnail'>
+            <a href='#'>
+              <img
+                src='{$match->logo}' alt='Logo'
+              />
+            </a>
+            <div class='business-details'>
+              <h3 class='business-name'><a href='#'>{$match->name}</a></h3>
+              <p class='business-address'><a href='#'>{$match->address}</a></p>
+              <p class='business-category'>{$match->category}</p>
+            </div>
+          </div>
+      </div>";
+        // <h2>{$match->name}</h2>
+        // <img src='{$match->logo}' alt='Logo'>
+        // <p>{$match->description}</p>
+        // <p>Address: {$match->address}</p>
+        // <p>Phone: {$match->phone}</p>
+        // <p>Email: {$match->email}</p>
+        // <p>Website: {$match->website}</p>
+        // <hr>
     }
 } else {
     echo "<p>No matches found</p>";

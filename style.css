@@ -5,6 +5,9 @@ body {
 .hr {
   border-top: 5px solid;
 }
+p {
+  margin: 0 !important;
+}
 
 .navbar {
     position: fixed;
@@ -78,6 +81,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 20px;
 }
 
 #municipalities-button .btn {
@@ -93,6 +97,9 @@ body {
 #municipalities-button .btn:hover {
   background-color: #634334;
 }
+.btn-secondary.active {
+  background-color: #32251f !important;
+}
   .form-inline .form-group {
     display: inline-block;
     width: auto;
@@ -104,7 +111,65 @@ body {
   text-align: center;
 }
   
-  
-  
-  
+.business-thumbnail {
+  width: 250px; /* Set a fixed width */
+  height: 250px; /* Set a fixed height */
+  border-radius: 10px;
+  overflow: hidden; /* Hide content that overflows */
+  background-color: rgba(250, 235, 215, 0.307);
+  margin: 10px 10px;
+  box-sizing: border-box;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.2s ease-in-out;
+ 
+}
+.business-thumbnail:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: 1px solid  #553323;
+}
+.business-details {
+  position: relative;
+  height: 85px;
+  padding: 0 10px;
+}
+
+.business-name a{
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  padding-top: 5px;
+  text-decoration: none;
+  color:  #553323;
+  max-width: 100%;
+  font-size: 20px;
+  overflow: hidden; /* Hide any overflow */
+  text-overflow: ellipsis; /* Show ... when text overflows */
+  white-space: nowrap; /* Prevent line breaks */
+  display: block; /* Apply text-overflow property correctly */
+}
+.business-name a:hover {
+  color: #a46b51;
+}
+
+.business-address a{
+  color: #4c4848;
+  text-decoration: none;
+}
+
+.business-address a:hover {
+  color: #a46b51;
+}
+
+.business-category {
+  font-size: 14px;
+}
+
+
+.business-thumbnail img {
+  width: 100%; /* Set width to fill parent div */
+  height: 150px; /* Maintain aspect ratio */
+}
+
+.footer{
+  background-color: #3d2418;
+}
   
