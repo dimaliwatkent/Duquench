@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Business Directory Search</title>
+    <link rel="stylesheet" href="search_page_style.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $("form").submit(function (event) {
+          event.preventDefault();
+          let searchTerm = $("#search-term").val();
+          let searchLocation = $("#search-location").val();
+          $.post(
+            "search.php",
+            { "search-term": searchTerm, "search-location": searchLocation },
+            function (data) {
+              $("#search-results").html(data);
+            }
+          );
+        });
+      });
+    </script>
+    <script>
+      $(document).ready(function () {
+        // Get the search term and location values from the URL query parameters
+        let params = new URLSearchParams(location.search);
+        let searchTerm = params.get("search-term");
+        let searchLocation = params.get("search-location");
+
+        // Set the input field values
+        $("#search-term").val(searchTerm);
+        $("#search-location").val(searchLocation);
+
+        $("form").submit();
+      });
+    </script>
+  </head>
+  <body>
+    <nav>
+      <h1>Business Directory</h1>
+      <form action="search.php" method="post">
+        <label for="search-term">Search All Fields:</label>
+        <input type="text" id="search-term" name="search-term" />
+        <label for="search-location">Search by Location:</label>
+        <input type="text" id="search-location" name="search-location" />
+        <button type="submit">Search</button>
+      </form>
+    </nav>
+    <div id="search-results"></div>
+  </body>
+</html>
