@@ -13,6 +13,7 @@ $search_location = isset($_POST['search-location']) ? $_POST['search-location'] 
 foreach ($xml->business as $business) {
     // Check if search term and/or location match any of the fields
     $search_term_match = ($search_term === '' || stristr($business->name, $search_term) !== false || stristr($business->address, $search_term) !== false || stristr($business->phone, $search_term) !== false || stristr($business->email, $search_term) !== false || stristr($business->website, $search_term) !== false || stristr($business->category, $search_term) !== false || stristr($business->description, $search_term) !== false);
+    
     $search_location_match = ($search_location === '' || stristr($business->address, $search_location) !== false);
 
     if ($search_term_match && $search_location_match) {
@@ -25,6 +26,7 @@ foreach ($xml->business as $business) {
 if (count($matches) > 0) {
     foreach ($matches as $match) {
         echo "<h2>{$match->name}</h2>";
+        echo "<img src='{$match->logo}' alt='Logo'>";
         echo "<p>{$match->description}</p>";
         echo "<p>Address: {$match->address}</p>";
         echo "<p>Phone: {$match->phone}</p>";
