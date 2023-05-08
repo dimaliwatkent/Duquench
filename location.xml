@@ -1,0 +1,237 @@
+<?xml version="1.0"?>
+<marinduque>
+    <municipality name="Boac">
+        <barangay>Agot</barangay>
+        <barangay>Agumaymayan</barangay>
+        <barangay>Amoingon</barangay>
+        <barangay>Apitong</barangay>
+        <barangay>Balagasan</barangay>
+        <barangay>Balaring</barangay>
+        <barangay>Balimbing</barangay>
+        <barangay>Balogo</barangay>
+        <barangay>Bamban</barangay>
+        <barangay>Bangbangalon</barangay>
+        <barangay>Bantad</barangay>
+        <barangay>Bantay</barangay>
+        <barangay>Bayuti</barangay>
+        <barangay>Binunga</barangay>
+        <barangay>Boi</barangay>
+        <barangay>Boton</barangay>
+        <barangay>Buliasnin</barangay>
+        <barangay>Bunganay</barangay>
+        <barangay>Caganhao</barangay>
+        <barangay>Canat</barangay>
+        <barangay>Catubugan</barangay>
+        <barangay>Cawit</barangay>
+        <barangay>Daig</barangay>
+        <barangay>Daypay</barangay>
+        <barangay>Duyay</barangay>
+        <barangay>Hinapulan</barangay>
+        <barangay>Ihatub</barangay>
+        <barangay>Isok 1 (Poblacion)</barangay>
+        <barangay>Isok 2 (Poblacion)</barangay>
+        <barangay>Laylay</barangay>
+        <barangay>Lupac</barangay>
+        <barangay>Mahinhin</barangay>
+        <barangay>Mainit</barangay>
+        <barangay>Malbog</barangay>
+        <barangay>Maligaya</barangay>
+        <barangay>Malusak (Poblacion)</barangay>
+        <barangay>Mansiwat</barangay>
+        <barangay>Mataas na Bayan (Poblacion)</barangay>
+        <barangay>Maybo</barangay>
+        <barangay>Mercado (Poblacion)</barangay>
+        <barangay>Murallon (Poblacion)</barangay>
+        <barangay>Ogbac</barangay>
+        <barangay>Pawa</barangay>
+        <barangay>Pili</barangay>
+        <barangay>Poctoy</barangay>
+        <barangay>Poras</barangay>
+        <barangay>Putting Buhangin</barangay>
+        <barangay>Puyog</barangay>
+        <barangay>Sabong</barangay>
+        <barangay>San Miguel (Poblacion)</barangay>
+        <barangay>Santol</barangay>
+        <barangay>Sawi</barangay>
+        <barangay>Tabi</barangay>
+        <barangay>Tabigue</barangay>
+        <barangay>Tagwak</barangay>
+        <barangay>Tambunan</barangay>
+        <barangay>Tampus (Poblacion)</barangay>
+        <barangay>Tanza</barangay>
+        <barangay>Tugos</barangay>
+        <barangay>Tumagabok</barangay>
+        <barangay>Tumapon</barangay>
+    </municipality>
+    <municipality name="Buenavista">
+        <barangay>Bagacay</barangay>
+        <barangay>Bagtingon</barangay>
+        <barangay>Barangay I</barangay>
+        <barangay>Barangay II</barangay>
+        <barangay>Barangay III</barangay>
+        <barangay>Barangay IV</barangay>
+        <barangay>Bicas-bicas</barangay>
+        <barangay>Caigangan</barangay>
+        <barangay>Daykitin</barangay>
+        <barangay>Libas</barangay>
+        <barangay>Malbog</barangay>
+        <barangay>Sihi</barangay>
+        <barangay>Timbo</barangay>
+        <barangay>Tungib-Lipata</barangay>
+        <barangay>Yook</barangay>
+    </municipality>
+
+    <municipality name="Gasan">
+        <barangay>Antipolo</barangay>
+        <barangay>Bachao Ibaba</barangay>
+        <barangay>Bachao Ilaya</barangay>
+        <barangay>Bacong-Bacong</barangay>
+        <barangay>Bahi</barangay>
+        <barangay>Bangbang</barangay>
+        <barangay>Banot</barangay>
+        <barangay>Banuyo</barangay>
+        <barangay>Bognuyan</barangay>
+        <barangay>Cabugao</barangay>
+        <barangay>Dawis</barangay>
+        <barangay>Dili</barangay>
+        <barangay>Libtangin</barangay>
+        <barangay>Mahunig</barangay>
+        <barangay>Mangiliol</barangay>
+        <barangay>Masiga</barangay>
+        <barangay>Matandang Gasan</barangay>
+        <barangay>Pangi</barangay>
+        <barangay>Pinggan</barangay>
+        <barangay>Tabionan</barangay>
+        <barangay>Tapuyan</barangay>
+        <barangay>Tiguion</barangay>
+        <barangay>Barangay I (Poblacion)</barangay>
+        <barangay>Barangay II (Poblacion)</barangay>
+        <barangay>Barangay III (Poblacion)</barangay>
+    </municipality>
+    <municipality name="Mogpog">
+        <barangay>Anapog-Sibucao</barangay>
+        <barangay>Argao</barangay>
+        <barangay>Balanacan</barangay>
+        <barangay>Banto</barangay>
+        <barangay>Bintakay</barangay>
+        <barangay>Bocboc</barangay>
+        <barangay>Butansapa</barangay>
+        <barangay>Candahon</barangay>
+        <barangay>Capayang</barangay>
+        <barangay>Danao</barangay>
+        <barangay>Dulong Bayan (Poblacion)</barangay>
+        <barangay>Gitnang Bayan (Poblacion)</barangay>
+        <barangay>Guisian</barangay>
+        <barangay>Hinadharan</barangay>
+        <barangay>Hinanggayon</barangay>
+        <barangay>Ino</barangay>
+        <barangay>Janagdong (Planned Poblacion Expansion)</barangay>
+        <barangay>Lamesa</barangay>
+        <barangay>Laon</barangay>
+        <barangay>Magapua</barangay>
+        <barangay>Malayak</barangay>
+        <barangay>Malusak</barangay>
+        <barangay>Mampaitan</barangay>
+        <barangay>Mangyan-Mababad</barangay>
+        <barangay>Market Site (Poblacion)</barangay>
+        <barangay>Mataas Na Bayan (Poblacion)</barangay>
+        <barangay>Mendez</barangay>
+        <barangay>Nangka I (Planned Poblacion Expansion)</barangay>
+        <barangay>Nangka II</barangay>
+        <barangay>Paye</barangay>
+        <barangay>Pili</barangay>
+        <barangay>Puting Buhangin</barangay>
+        <barangay>Sayao</barangay>
+        <barangay>Silangan</barangay>
+        <barangay>Sumangga</barangay>
+        <barangay>Tarug</barangay>
+        <barangay>Villa Mendez (Poblacion)</barangay>
+    </municipality>
+
+
+    <municipality name="Santa Cruz">
+        <barangay>Alobo</barangay>
+        <barangay>Angas</barangay>
+        <barangay>Aturan</barangay>
+        <barangay>Bagong Silang Pob. (2nd Zone)</barangay>
+        <barangay>Baguidbirin</barangay>
+        <barangay>Baliis</barangay>
+        <barangay>Balogo</barangay>
+        <barangay>Banahaw Pob. (3rd Zone Pob.)</barangay>
+        <barangay>Bangcuangan</barangay>
+        <barangay>Banogbog</barangay>
+        <barangay>Biga</barangay>
+        <barangay>Botilao</barangay>
+        <barangay>Buyabod</barangay>
+        <barangay>Dating Bayan</barangay>
+        <barangay>Devilla</barangay>
+        <barangay>Dolores</barangay>
+        <barangay>Haguimit</barangay>
+        <barangay>Hupi</barangay>
+        <barangay>Ipil</barangay>
+        <barangay>Jolo</barangay>
+        <barangay>Kaganhao</barangay>
+        <barangay>Kalangkang</barangay>
+        <barangay>Kamandugan</barangay>
+        <barangay>Kasily</barangay>
+        <barangay>Kilo-kilo</barangay>
+        <barangay>Kinyaman</barangay>
+        <barangay>Labo</barangay>
+        <barangay>Lamesa</barangay>
+        <barangay>Landy(Perez)</barangay>
+        <barangay>Lapu-lapu Pob. (5th Zone)</barangay>
+        <barangay>Libjo</barangay>
+        <barangay>Lipa</barangay>
+        <barangay>Lusok</barangay>
+        <barangay>Maharlika Pob. (1st Zone)</barangay>
+        <barangay>Makulapnit</barangay>
+        <barangay>Maniwaya</barangay>
+        <barangay>Manlibunan</barangay>
+        <barangay>Masaguisi</barangay>
+        <barangay>Masalukot</barangay>
+        <barangay>Matalaba</barangay>
+        <barangay>Mongpong</barangay>
+        <barangay>Morales</barangay>
+        <barangay>Napo (Malabon)</barangay>
+        <barangay>Pag-Asa Pob. (4th Zone)</barangay>
+        <barangay>Pantayin</barangay>
+        <barangay>Polo</barangay>
+        <barangay>Pulong-Parang</barangay>
+        <barangay>Punong</barangay>
+        <barangay>San Antonio</barangay>
+        <barangay>San Isidro</barangay>
+        <barangay>Tagum</barangay>
+        <barangay>Tamayo</barangay>
+        <barangay>Tambangan</barangay>
+        <barangay>Tawiran</barangay>
+        <barangay>Taytay</barangay>
+    </municipality>
+    <municipality name="Torrijos">
+        <barangay>Bangwayin</barangay>
+        <barangay>Bayakbakin</barangay>
+        <barangay>Bolo</barangay>
+        <barangay>Bonliw</barangay>
+        <barangay>Buangan</barangay>
+        <barangay>Cabuyo</barangay>
+        <barangay>Cagpo</barangay>
+        <barangay>Dampulan</barangay>
+        <barangay>Kay Duke</barangay>
+        <barangay>Mabuhay</barangay>
+        <barangay>Makawayan</barangay>
+        <barangay>Malibago</barangay>
+        <barangay>Malinao</barangay>
+        <barangay>Maranlig</barangay>
+        <barangay>Marlangga</barangay>
+        <barangay>Matuyatuya</barangay>
+        <barangay>Nangka</barangay>
+        <barangay>Pakaskasan</barangay>
+        <barangay>Payanas</barangay>
+        <barangay>Poblacion</barangay>
+        <barangay>Poctoy</barangay>
+        <barangay>Sibuyao</barangay>
+        <barangay>Suha</barangay>
+        <barangay>Talawan</barangay>
+        <barangay>Tigwi</barangay>
+    </municipality>
+
+</marinduque>

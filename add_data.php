@@ -47,6 +47,6 @@ $opening_hours->appendChild($xml->createElement('sunday', $sunday));
 $xml->save('directory.xml');
 
 // Redirect back to the admin panel
-header('Location: index.html');
+header('Location: index.php');
 exit;
 ?>

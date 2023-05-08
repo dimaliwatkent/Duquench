@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Add a Business</h1>
+    <form action="add_data.php" method="post">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" /><br /><br />
+      <label for="address">Address:</label>
+      <input type="text" id="address" name="address" /><br /><br />
+
+      <!-- <label for="municipality">Municipality:</label> -->
+      <select id="municipality" name="municipality">
+        <option value="">Select a municipality</option>
+        <option
+          value="Boac"
+          data-barangays="Agot,Agumaymayan,Amoingon,Apitong,Balagasan,Balaring,Balimbing,Balogo,Bamban,Bangbangalon,Bantad,Bantay,Bayuti,Binunga,Boi,Boton,Buliasnin,Bunganay,Caganhao,Canat,Catubugan,Cawit,Daig,Daypay,Duyay,Hinapulan,Ihatub,Isok 1 (Poblacion),Isok 2 (Poblacion),Laylay,LupacMahinhin,Mainit,Malbog,Maligaya,Malusak (Poblacion),Mansiwat,Mataas na Bayan (Poblacion),Maybo,Mercado (Poblacion),Murallon (Poblacion)Ogbac,Pawa,Pili,Poctoy,Poras,Putting Buhangin,Puyog,Sabong,San Miguel (Poblacion),Santol,Sawi,Tabi,Tabigue,Tagwak,Tambunan,Tampus (Poblacion),Tanza,Tugos,Tumagabok,Tumapon"
+        >
+          Boac
+        </option>
+        <option
+          value="Buenavista"
+          data-barangays="Bagacay,Bagtingon,Barangay I,Barangay II,Barangay III,Barangay IV,Bicas-bicas,Caigangan,Daykitin,Libas,Malbog,Sihi,Timbo,Tungib-Lipata,Yook"
+        >
+          Buenavista
+        </option>
+        <option
+          value="Gasan"
+          data-barangays="Antipolo,Bachao Ibaba,Bachao Ilaya,Bacong-Bacong,Bahi,Bangbang,Banot,Banuyo,Bognuyan,Cabugao,Dawis,Dili,Libtangin,Mahunig,Mangiliol,Masiga,Matandang Gasan,Pangi,Pinggan,Tabionan,Tapuyan,Tiguion,Barangay I (Poblacion),Barangay II (Poblacion),Barangay III (Poblacion)"
+        >
+          Gasan
+        </option>
+        <option
+          value="Mogpog"
+          data-barangays="Anapog-Sibucao,Argao,Balanacan,Banto,Bintakay,Bocboc,Butansapa,Candahon,Capayang,Danao,Dulong Bayan (Poblacion),Gitnang Bayan (Poblacion),Guisian,Hinadharan,Hinanggayon,Ino,Janagdong (Planned Poblacion Expansion),Lamesa,Laon,Magapua,Malayak,Malusak,Mampaitan,Mangyan-Mababad,Market Site (Poblacion),Mataas Na Bayan (Poblacion),Mendez,Nangka I (Planned Poblacion Expansion),Nangka II,Paye,Pili,Puting Buhangin,Sayao,Silangan,Sumangga,Tarug,Villa Mendez (Poblacion)"
+        >
+          Mogpog
+        </option>
+        <option
+          value="Santa Cruz"
+          data-barangays="Alobo,Angas,Aturan,Bagong Silang Pob. (2nd Zone),Baguidbirin,Baliis,Balogo,Banahaw Pob. (3rd Zone Pob.),Bangcuangan,Banogbog,Biga,Botilao,Buyabod,Dating Bayan,Devilla,Dolores,Haguimit,Hupi,Ipil,Jolo,Kaganhao,Kalangkang,Kamandugan,Kasily,Kilo-kilo,Kinyaman,Labo,Lamesa,Landy(Perez),Lapu-lapu Pob. (5th Zone),Libjo,Lipa,Lusok,Maharlika Pob. (1st Zone),Makulapnit,Maniwaya,Manlibunan,Masaguisi,Masalukot,Matalaba,Mongpong,Morales,Napo (Malabon),Pag-Asa Pob. (4th Zone),Pantayin,Polo,Pulong-Parang,Punong,San Antonio,San Isidro,Tagum,Tamayo,Tambangan,Tawiran,Taytay"
+        >
+          Santa Cruz
+        </option>
+        <option
+          value="Torrijos"
+          data-barangays="Bangwayin,Bayakbakin,Bolo,Bonliw,Buangan,Cabuyo,Cagpo,Dampulan,Kay Duke,Mabuhay,Makawayan,Malibago,Malinao,Maranlig,Marlangga,Matuyatuya,Nangka,Pakaskasan,Payanas,Poblacion,Poctoy,Sibuyao,Suha,Talawan,Tigwi"
+        >
+          Torrijos
+        </option>
+      </select>
+
+      <!-- <label for="barangay">Barangay:</label> -->
+      <select id="barangay" name="barangay">
+        <option value="">Select a barangay</option>
+      </select>
+      <br /><br />
+
+      <label for="phone">Phone:</label>
+      <input type="text" id="phone" name="phone" /><br /><br />
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" /><br /><br />
+      <label for="website">Website:</label>
+      <input type="text" id="website" name="website" /><br /><br />
+      <label for="category">Category:</label>
+      <input type="text" id="category" name="category" /><br /><br />
+      <label for="description">Description:</label><br />
+      <textarea id="description" name="description"></textarea><br /><br />
+      <label for="logo">Logo:</label>
+      <input
+        type="text"
+        id="logo"
+        name="logo"
+        value="https://via.placeholder.com/200x200"
+      /><br /><br />
+      <label for="monday">Monday:</label>
+      <input type="text" id="monday" name="monday" value="Closed" /><br /><br />
+      <label for="tuesday">Tuesday:</label>
+      <input
+        type="text"
+        id="tuesday"
+        name="tuesday"
+        value="Closed"
+      /><br /><br />
+      <label for="wednesday">Wednesday:</label>
+      <input
+        type="text"
+        id="wednesday"
+        name="wednesday"
+        value="Closed"
+      /><br /><br />
+      <label for="thursday">Thursday:</label>
+      <input
+        type="text"
+        id="thursday"
+        name="thursday"
+        value="Closed"
+      /><br /><br />
+      <label for="friday">Friday:</label>
+      <input type="text" id="friday" name="friday" value="Closed" /><br /><br />
+      <label for="saturday">Saturday:</label>
+      <input
+        type="text"
+        id="saturday"
+        name="saturday"
+        value="Closed"
+      /><br /><br />
+      <label for="sunday">Sunday:</label>
+      <input type="text" id="sunday" name="sunday" value="Closed" /><br /><br />
+
+      <!-- Opening hours -->
+      <label for="opening-time">Opening Time:</label>
+      <input type="time" id="opening-time" name="opening-time" /><br /><br />
+
+      <label for="closing-time">Closing Time:</label>
+      <input type="time" id="closing-time" name="closing-time" /><br /><br />
+
+      <label for="time">Selected Time:</label>
+      <input type="text" id="time" name="time" readonly /><br /><br />
+
+      <label for="mondayCheck">Monday:</label>
+      <input
+        type="checkbox"
+        id="mondayCheck"
+        name="mondayCheck"
+        value="monday"
+      /><br /><br />
+
+      <label for="tuesdayCheck">Tuesday:</label>
+      <input
+        type="checkbox"
+        id="tuesdayCheck"
+        name="tuesdayCheck"
+        value="tuesday"
+      /><br /><br />
+
+      <label for="wednesdayCheck">Wednesday:</label>
+      <input
+        type="checkbox"
+        id="wednesdayCheck"
+        name="wednesdayCheck"
+        value="wednesday"
+      /><br /><br />
+
+      <label for="thursdayCheck">Thursday:</label>
+      <input
+        type="checkbox"
+        id="thursdayCheck"
+        name="thursdayCheck"
+        value="thursday"
+      /><br /><br />
+
+      <label for="fridayCheck">Friday:</label>
+      <input
+        type="checkbox"
+        id="fridayCheck"
+        name="fridayCheck"
+        value="friday"
+      /><br /><br />
+
+      <label for="saturdayCheck">Saturday:</label>
+      <input
+        type="checkbox"
+        id="saturdayCheck"
+        name="saturdayCheck"
+        value="saturday"
+      /><br /><br />
+
+      <label for="sundayCheck">Sunday:</label>
+      <input
+        type="checkbox"
+        id="sundayCheck"
+        name="sundayCheck"
+        value="sunday"
+      /><br /><br />
+      <!-- End of Opening hours -->
+
+      <input type="submit" value="Save" />
+    </form>
+    <script src="script.js"></script>
+    <script>
+      const form = document.querySelector("form");
+      const municipalityDropdown = document.getElementById("municipality");
+      const barangayDropdown = document.getElementById("barangay");
+      const addressInput = document.getElementById("address");
+
+      // Populate the barangay dropdown menu when the municipality is selected
+      municipalityDropdown.addEventListener("change", function () {
+        const selectedMunicipality =
+          municipalityDropdown.options[municipalityDropdown.selectedIndex];
+        const barangays = selectedMunicipality.dataset.barangays.split(",");
+        barangayDropdown.innerHTML = "";
+        barangays.forEach(function (barangay) {
+          const option = document.createElement("option");
+          option.value = barangay;
+          option.textContent = barangay;
+          barangayDropdown.appendChild(option);
+        });
+      });
+
+      // Handle form submission
+      form.addEventListener("submit", function (event) {
+        event.preventDefault();
+
+        //// Get the selected values from the dropdown menus
+        const selectedBarangay = barangayDropdown.value;
+        const selectedMunicipality = municipalityDropdown.value;
+        // Create the formatted address string
+        const address = `${selectedBarangay}, ${selectedMunicipality}`;
+
+        // Set the formatted address as the value of the address input field
+        addressInput.value = address;
+        form.submit();
+      });
+
+      // Add an event listener to the municipality dropdown
+      municipalityDropdown.addEventListener("change", function () {
+        // Get the selected municipality option
+        const selectedMunicipality =
+          municipalityDropdown.options[municipalityDropdown.selectedIndex];
+
+        // Get the barangays for the selected municipality
+        const barangays = selectedMunicipality.dataset.barangays.split(",");
+
+        // Clear the barangay dropdown
+        barangayDropdown.innerHTML = "";
+
+        // Add the default "Select a barangay" option
+        const defaultOption = document.createElement("option");
+        defaultOption.text = "Select a barangay";
+        barangayDropdown.add(defaultOption);
+
+        // Add the barangays for the selected municipality to the barangay dropdown
+        barangays.forEach(function (barangay) {
+          const option = document.createElement("option");
+          option.value = barangay;
+          option.textContent = barangay;
+          barangayDropdown.appendChild(option);
+        });
+
+        // Update the address textbox
+        const addressTextbox = document.getElementById("address");
+        addressTextbox.value =
+          selectedMunicipality.text +
+          ", " +
+          barangayDropdown.options[barangayDropdown.selectedIndex].text;
+      });
+
+      // Add an event listener to the barangay dropdown
+      barangayDropdown.addEventListener("change", function () {
+        const selectedMunicipality =
+          municipalityDropdown.options[municipalityDropdown.selectedIndex];
+        const selectedBarangay =
+          barangayDropdown.options[barangayDropdown.selectedIndex];
+        const addressTextbox = document.getElementById("address");
+        addressTextbox.value =
+          selectedMunicipality.text + ", " + selectedBarangay.text;
+      });
+    </script>
+  </body>
+</html>
