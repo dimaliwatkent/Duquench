@@ -1,13 +1,131 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <directory>
   <business>
-    <name>ABC Company on the spot making some progress</name>
-    <address>Sihi Buenavista</address>
+    <name>Cafe de Bagacay</name>
+    <address>Bagacay, Buenavista</address>
     <phone>(212) 555-1234</phone>
-    <email>info@abccompany.com</email>
-    <website>www.abccompany.com</website>
-    <category>Technology</category>
-    <description>ABC Company is a leading provider of technology solutions.</description>
+    <email>info@cafedebagacay.com</email>
+    <website>www.cafedebagacay.com</website>
+    <category>Coffee Shop</category>
+    <description>Cafe de Bagacay serves delicious coffee and pastries.</description>
+    <logo>https://via.placeholder.com/200x200</logo>
+    <opening_hours>
+      <monday>7:00 AM - 6:00 PM</monday>
+      <tuesday>7:00 AM - 6:00 PM</tuesday>
+      <wednesday>7:00 AM - 6:00 PM</wednesday>
+      <thursday>7:00 AM - 6:00 PM</thursday>
+      <friday>7:00 AM - 6:00 PM</friday>
+      <saturday>8:00 AM - 6:00 PM</saturday>
+      <sunday>8:00 AM - 6:00 PM</sunday>
+    </opening_hours>
+  </business>
+
+  <business>
+    <name>Bagtingon Brew</name>
+    <address>Bagtingon, Buenavista</address>
+    <phone>(212) 555-1234</phone>
+    <email>info@bagtingonbrew.com</email>
+    <website>www.bagtingonbrew.com</website>
+    <category>Coffee Shop</category>
+    <description>Bagtingon Brew offers a wide selection of coffee and tea drinks.</description>
+    <logo>https://via.placeholder.com/200x200</logo>
+    <opening_hours>
+      <monday>7:00 AM - 5:00 PM</monday>
+      <tuesday>7:00 AM - 5:00 PM</tuesday>
+      <wednesday>7:00 AM - 5:00 PM</wednesday>
+      <thursday>7:00 AM - 5:00 PM</thursday>
+      <friday>7:00 AM - 5:00 PM</friday>
+      <saturday>8:00 AM - 5:00 PM</saturday>
+      <sunday>Closed</sunday>
+    </opening_hours>
+  </business>
+
+  <business>
+    <name>Bicas-bicas Bistro</name>
+    <address>Bicas-bicas, Buenavista</address>
+    <phone>(212) 555-1234</phone>
+    <email>info@bicasbicasbistro.com</email>
+    <website>www.bicasbicasbistro.com</website>
+    <category>Bistro</category>
+    <description>Bicas-bicas Bistro serves delicious breakfast, lunch, and dinner dishes.</description>
+    <logo>https://via.placeholder.com/200x200</logo>
+    <opening_hours>
+      <monday>7:00 AM - 5:00 PM</monday>
+      <tuesday>7:00 AM - 5:00 PM</tuesday>
+      <wednesday>7:00 AM - 5:00 PM</wednesday>
+      <thursday>7:00 AM - 5:00 PM</thursday>
+      <friday>7:00 AM - 5:00 PM</friday>
+      <saturday>8:00 AM - 5:00 PM</saturday>
+      <sunday>Closed</sunday>
+    </opening_hours>
+  </business>
+  <business>
+    <name>Caigangan Coffee Co.</name>
+    <address>Caigangan, Buenavista</address>
+    <phone>(212) 555-1234</phone>
+    <email>info@caigangancoffee.com</email>
+    <website>www.caigangancoffee.com</website>
+    <category>Coffee Shop</category>
+    <description>Caigangan Coffee Co. is a cozy cafe that serves locally sourced coffee beans.</description>
+    <logo>https://via.placeholder.com/200x200</logo>
+    <opening_hours>
+      <monday>7:00 AM - 6:00 PM</monday>
+      <tuesday>7:00 AM - 6:00 PM</tuesday>
+      <wednesday>7:00 AM - 6:00 PM</wednesday>
+      <thursday>7:00 AM - 6:00 PM</thursday>
+      <friday>7:00 AM - 6:00 PM</friday>
+      <saturday>8:00 AM - 6:00 PM</saturday>
+      <sunday>8:00 AM - 6:00 PM</sunday>
+    </opening_hours>
+  </business>
+  <business>
+    <name>Daykitin Deli</name>
+    <address>Daykitin, Buenavista</address>
+    <phone>(212) 555-1234</phone>
+    <email>info@daykitindeli.com</email>
+    <website>www.daykitindeli.com</website>
+    <category>Deli</category>
+    <description>Daykitin Deli serves fresh sandwiches, salads, and soups made with locally sourced ingredients.</description>
+    <logo>https://via.placeholder.com/200x200</logo>
+    <opening_hours>
+      <monday>9:00 AM - 5:00 PM</monday>
+      <tuesday>9:00 AM - 5:00 PM</tuesday>
+      <wednesday>9:00 AM - 5:00 PM</wednesday>
+      <thursday>9:00 AM - 5:00 PM</thursday>
+      <friday>9:00 AM - 5:00 PM</friday>
+      <saturday>Closed</saturday>
+      <sunday>Closed</sunday>
+    </opening_hours>
+  </business>
+
+  <business>
+    <name>Libas Lounge</name>
+    <address>Libas, Buenavista</address>
+    <phone>(212) 555-1234</phone>
+    <email>info@libaslounge.com</email>
+    <website>www.libaslounge.com</website>
+    <category>Coffee Shop</category>
+    <description>Libas Lounge serves coffee, tea, and light bites in a relaxed atmosphere.</description>
+    <logo>https://via.placeholder.com/200x200</logo>
+    <opening_hours>
+      <monday>9:00 AM - 5:00 PM</monday>
+      <tuesday>9:00 AM - 5:00 PM</tuesday>
+      <wednesday>9:00 AM - 5:00 PM</wednesday>
+      <thursday>9:00 AM - 5:00 PM</thursday>
+      <friday>9:00 AM - 5:00 PM</friday>
+      <saturday>Closed</saturday>
+      <sunday>Closed</sunday>
+    </opening_hours>
+  </business>
+
+  <business>
+    <name>Tungib-Lipata Bakery</name>
+    <address>Tungib-Lipata, Buenavista</address>
+    <phone>(212) 555-1234</phone>
+    <email>info@tungiblipatabakery.com</email>
+    <website>www.tungiblipatabakery.com</website>
+    <category>Bakery</category>
+    <description>Tungib-Lipata Bakery serves freshly baked bread and pastries.</description>
     <logo>https://via.placeholder.com/200x200</logo>
     <opening_hours>
       <monday>9:00 AM - 5:00 PM</monday>
@@ -20,13 +138,13 @@
     </opening_hours>
   </business>
   <business>
-    <name>XYZ Corporation</name>
-    <address>timbo Buenavista</address>
-    <phone>(310) 555-5678</phone>
-    <email>info@xyzcorp.com</email>
-    <website>www.xyzcorp.com</website>
-    <category>Finance</category>
-    <description>XYZ Corporation provides comprehensive financial services to businesses and individuals.</description>
+    <name>Yook Cafe</name>
+    <address>Yook, Buenavista</address>
+    <phone>(212) 555-1234</phone>
+    <email>info@yookcafe.com</email>
+    <website>www.yookcafe.com</website>
+    <category>Coffee Shop</category>
+    <description>Yook Cafe serves a variety of coffee drinks and snacks in a cozy setting.</description>
     <logo>https://via.placeholder.com/200x200</logo>
     <opening_hours>
       <monday>9:00 AM - 5:00 PM</monday>
@@ -39,13 +157,13 @@
     </opening_hours>
   </business>
   <business>
-    <name>Acme Industries</name>
-    <address>789 Oak Street</address>
-    <phone>(415) 555-9012</phone>
-    <email>info@acmeindustries.com</email>
-    <website>www.acmeindustries.com</website>
-    <category>Manufacturing</category>
-    <description>Acme Industries is a leading manufacturer of industrial equipment.</description>
+    <name>Barangay I Coffee Co.</name>
+    <address>Barangay I (Poblacion), Buenavista</address>
+    <phone>(212) 555-1234</phone>
+    <email>info@barangayicoffee.com</email>
+    <website>www.barangayicoffee.com</website>
+    <category>Coffee Shop</category>
+    <description>Barangay I Coffee Co. is a popular coffee shop in the heart of Poblacion.</description>
     <logo>https://via.placeholder.com/200x200</logo>
     <opening_hours>
       <monday>9:00 AM - 5:00 PM</monday>
@@ -58,13 +176,13 @@
     </opening_hours>
   </business>
   <business>
-    <name>Global Logistics</name>
-    <address>1010 Broad Street</address>
-    <phone>(617) 555-3456</phone>
-    <email>info@globallogistics.com</email>
-    <website>www.globallogistics.com</website>
-    <category>Transportation</category>
-    <description>Global Logistics provides shipping and logistics services around the world.</description>
+    <name>Barangay II Cafe</name>
+    <address>Barangay II (Poblacion), Buenavista</address>
+    <phone>(212) 555-1234</phone>
+    <email>info@barangayiicafe.com</email>
+    <website>www.barangayiicafe.com</website>
+    <category>Coffee Shop</category>
+    <description>Barangay II Cafe serves delicious coffee and light snacks in a charming setting.</description>
     <logo>https://via.placeholder.com/200x200</logo>
     <opening_hours>
       <monday>9:00 AM - 5:00 PM</monday>
@@ -77,13 +195,13 @@
     </opening_hours>
   </business>
   <business>
-    <name>Green Energy Solutions</name>
-    <address>234 Elm Street</address>
-    <phone>(312) 555-7890</phone>
-    <email>info@greenenergysolutions.com</email>
-    <website>www.greenenergysolutions.com</website>
-    <category>Environmental</category>
-    <description>Green Energy Solutions provides renewable energy solutions to businesses and homes.</description>
+    <name>Barangay III Bakery</name>
+    <address>Barangay III (Poblacion), Buenavista</address>
+    <phone>(212) 555-1234</phone>
+    <email>info@barangayiiibakery.com</email>
+    <website>www.barangayiiibakery.com</website>
+    <category>Bakery</category>
+    <description>Barangay III Bakery offers a wide variety of freshly baked goods.</description>
     <logo>https://via.placeholder.com/200x200</logo>
     <opening_hours>
       <monday>9:00 AM - 5:00 PM</monday>
@@ -96,13 +214,13 @@
     </opening_hours>
   </business>
   <business>
-    <name>Mountain View Resort</name>
-    <address>567 Pine Drive</address>
-    <phone>(802) 555-2345</phone>
-    <email>info@mountainviewresort.com</email>
-    <website>www.mountainviewresort.com</website>
-    <category>Hospitality</category>
-    <description>Mountain View Resort is a luxury resort nestled in the mountains.</description>
+    <name>Barangay IV Cafe</name>
+    <address>Barangay IV (Poblacion), Buenavista</address>
+    <phone>(212) 555-1234</phone>
+    <email>info@barangayivcafe.com</email>
+    <website>www.barangayivcafe.com</website>
+    <category>Coffee Shop</category>
+    <description>Barangay IV Cafe is a great spot to relax and enjoy a cup of coffee.</description>
     <logo>https://via.placeholder.com/200x200</logo>
     <opening_hours>
       <monday>9:00 AM - 5:00 PM</monday>
@@ -115,13 +233,113 @@
     </opening_hours>
   </business>
   <business>
-    <name>Optima Health</name>
-    <address>890 Maple Avenue</address>
-    <phone>(703) 555-6789</phone>
-    <email>info@optimahealth.com</email>
-    <website>www.optimahealth.com</website>
-    <category>Healthcare</category>
-    <description>Optima Health provides health insurance and healthcare services to individuals and businesses.</description>
+    <name>Tea Haven</name>
+    <address>Agot, Boace</address>
+    <phone>(02) 123-4567</phone>
+    <email>teahaven@gmail.com</email>
+    <website>www.teahaven.com</website>
+    <category>Milk Tea Shop</category>
+    <description>Tea Haven offers a wide variety of milk tea flavors for everyone to enjoy.</description>
+    <logo>https://via.placeholder.com/200x200</logo>
+    <opening_hours>
+      <monday>9:00 AM - 5:00 PM</monday>
+      <tuesday>9:00 AM - 5:00 PM</tuesday>
+      <wednesday>9:00 AM - 5:00 PM</wednesday>
+      <thursday>9:00 AM - 5:00 PM</thursday>
+      <friday>9:00 AM - 5:00 PM</friday>
+      <saturday>Closed</saturday>
+      <sunday>Closed</sunday>
+    </opening_hours>
+  </business>
+
+  <business>
+    <name>Chatime Boac</name>
+    <address>Bantad, Boac</address>
+    <phone>(02) 234-5678</phone>
+    <email>chatimeboac@yahoo.com</email>
+    <website>www.chatimeboac.com</website>
+    <category>Milk Tea Shop</category>
+    <description>Chatime Boac is the go-to place for your milk tea cravings.</description>
+    <logo>https://via.placeholder.com/200x200</logo>
+    <opening_hours>
+      <monday>9:00 AM - 5:00 PM</monday>
+      <tuesday>9:00 AM - 5:00 PM</tuesday>
+      <wednesday>9:00 AM - 5:00 PM</wednesday>
+      <thursday>9:00 AM - 5:00 PM</thursday>
+      <friday>9:00 AM - 5:00 PM</friday>
+      <saturday>Closed</saturday>
+      <sunday>Closed</sunday>
+    </opening_hours>
+  </business>
+
+  <business>
+    <name>Milk Tea Madness</name>
+    <address>Cawit, Boac</address>
+    <phone>(02) 345-6789</phone>
+    <email>milkteamadness@gmail.com</email>
+    <website>www.milkteamadness.com</website>
+    <category>Milk Tea Shop</category>
+    <description>Milk Tea Madness offers delicious milk tea flavors that will surely satisfy your taste buds.</description>
+    <logo>https://via.placeholder.com/200x200</logo>
+    <opening_hours>
+      <monday>9:00 AM - 5:00 PM</monday>
+      <tuesday>9:00 AM - 5:00 PM</tuesday>
+      <wednesday>9:00 AM - 5:00 PM</wednesday>
+      <thursday>9:00 AM - 5:00 PM</thursday>
+      <friday>9:00 AM - 5:00 PM</friday>
+      <saturday>Closed</saturday>
+      <sunday>Closed</sunday>
+    </opening_hours>
+  </business>
+
+  <business>
+    <name>Bubble Tea Cafe</name>
+    <address>Laylay, Boac</address>
+    <phone>(02) 456-7890</phone>
+    <email>bubbleteacafe@yahoo.com</email>
+    <website>www.bubbleteacafe.com</website>
+    <category>Milk Tea Shop</category>
+    <description>Bubble Tea Cafe serves premium milk tea flavors using only the finest ingredients.</description>
+    <logo>https://via.placeholder.com/200x200</logo>
+    <opening_hours>
+      <monday>9:00 AM - 5:00 PM</monday>
+      <tuesday>9:00 AM - 5:00 PM</tuesday>
+      <wednesday>9:00 AM - 5:00 PM</wednesday>
+      <thursday>9:00 AM - 5:00 PM</thursday>
+      <friday>9:00 AM - 5:00 PM</friday>
+      <saturday>Closed</saturday>
+      <sunday>Closed</sunday>
+    </opening_hours>
+  </business>
+
+  <business>
+    <name>Happy Cup</name>
+    <address>Poras, Boac</address>
+    <phone>(02) 567-8901</phone>
+    <email>happycup@gmail.com</email>
+    <website>www.happycup.com</website>
+    <category>Milk Tea Shop</category>
+    <description>Happy Cup is where you can find happiness in every cup of their delicious milk tea flavors.</description>
+    <logo>https://via.placeholder.com/200x200</logo>
+    <opening_hours>
+      <monday>9:00 AM - 5:00 PM</monday>
+      <tuesday>9:00 AM - 5:00 PM</tuesday>
+      <wednesday>9:00 AM - 5:00 PM</wednesday>
+      <thursday>9:00 AM - 5:00 PM</thursday>
+      <friday>9:00 AM - 5:00 PM</friday>
+      <saturday>Closed</saturday>
+      <sunday>Closed</sunday>
+    </opening_hours>
+  </business>
+
+  <business>
+    <name>Tea Time</name>
+    <address>Balogo, Boac</address>
+    <phone>(02) 678-9012</phone>
+    <email>teatime@yahoo.com</email>
+    <website>www.teatime.com</website>
+    <category>Milk Tea Shop</category>
+    <description>Tea Time offers unique and flavorful milk tea blends that are perfect for any occasion.</description>
     <logo>https://via.placeholder.com/200x200</logo>
     <opening_hours>
       <monday>9:00 AM - 5:00 PM</monday>
@@ -134,13 +352,13 @@
     </opening_hours>
   </business>
   <business>
-    <name>Superior Cleaning Services</name>
-    <address>1111 Main Street</address>
-    <phone>(404) 555-1234</phone>
-    <email>info@superiorcleaning.com</email>
-    <website>www.superiorcleaning.com</website>
-    <category>Cleaning</category>
-    <description>A cleaning industry </description>
+    <name>Milky Way Milk Tea</name>
+    <address>Agumaymayan, Boac</address>
+    <phone>(02) 555-6789</phone>
+    <email>milkywaymilktea@gmail.com</email>
+    <website>www.milkywaymilktea.com</website>
+    <category>Milk Tea Shop</category>
+    <description>Milky Way Milk Tea offers a variety of milk tea flavors and toppings.</description>
     <logo>https://via.placeholder.com/200x200</logo>
     <opening_hours>
       <monday>9:00 AM - 5:00 PM</monday>
@@ -152,4 +370,947 @@
       <sunday>Closed</sunday>
     </opening_hours>
   </business>
+
+  <business>
+    <name>Pearl Milk Tea House</name>
+    <address>Balogo, Boac</address>
+    <phone>(02) 555-4321</phone>
+    <email>pearlmilkteahouse@gmail.com</email>
+    <website>www.pearlmilkteahouse.com</website>
+    <category>Milk Tea Shop</category>
+    <description>Pearl Milk Tea House specializes in pearl milk tea with chewy tapioca pearls.</description>
+    <logo>https://via.placeholder.com/200x200</logo>
+    <opening_hours>
+      <monday>9:00 AM - 5:00 PM</monday>
+      <tuesday>9:00 AM - 5:00 PM</tuesday>
+      <wednesday>9:00 AM - 5:00 PM</wednesday>
+      <thursday>9:00 AM - 5:00 PM</thursday>
+      <friday>9:00 AM - 5:00 PM</friday>
+      <saturday>Closed</saturday>
+      <sunday>Closed</sunday>
+    </opening_hours>
+  </business>
+
+  <business>
+    <name>Tea Garden</name>
+    <address>Isok 2 (Poblacion), Boac</address>
+    <phone>(02) 555-9876</phone>
+    <email>teagarden@gmail.com</email>
+    <website>www.teagarden.com</website>
+    <category>Milk Tea Shop</category>
+    <description>Tea Garden serves premium quality tea leaves and milk tea blends.</description>
+    <logo>https://via.placeholder.com/200x200</logo>
+    <opening_hours>
+      <monday>9:00 AM - 5:00 PM</monday>
+      <tuesday>9:00 AM - 5:00 PM</tuesday>
+      <wednesday>9:00 AM - 5:00 PM</wednesday>
+      <thursday>9:00 AM - 5:00 PM</thursday>
+      <friday>9:00 AM - 5:00 PM</friday>
+      <saturday>Closed</saturday>
+      <sunday>Closed</sunday>
+    </opening_hours>
+  </business>
+
+  <business>
+    <name>Milk and Honey Tea Shop</name>
+    <address>Mahinhin, Boac</address>
+    <phone>(02) 555-1357</phone>
+    <email>milkandhoneyteashop@gmail.com</email>
+    <website>www.milkandhoneyteashop.com</website>
+    <category>Milk Tea Shop</category>
+    <description>Milk and Honey Tea Shop offers a unique twist on traditional milk tea flavors.</description>
+    <logo>https://via.placeholder.com/200x200</logo>
+    <opening_hours>
+      <monday>9:00 AM - 5:00 PM</monday>
+      <tuesday>9:00 AM - 5:00 PM</tuesday>
+      <wednesday>9:00 AM - 5:00 PM</wednesday>
+      <thursday>9:00 AM - 5:00 PM</thursday>
+      <friday>9:00 AM - 5:00 PM</friday>
+      <saturday>Closed</saturday>
+      <sunday>Closed</sunday>
+    </opening_hours>
+  </business>
+
+  <business>
+    <name>Sweetea House</name>
+    <address>Lupac, Boac</address>
+    <phone>(02) 555-2468</phone>
+    <email>sweeteahouse@gmail.com</email>
+    <website>www.sweeteahouse.com</website>
+    <category>Milk Tea Shop</category>
+    <description>Sweetea House offers sweet and creamy milk tea drinks.</description>
+    <logo>https://via.placeholder.com/200x200</logo>
+    <opening_hours>
+      <monday>9:00 AM - 5:00 PM</monday>
+      <tuesday>9:00 AM - 5:00 PM</tuesday>
+      <wednesday>9:00 AM - 5:00 PM</wednesday>
+      <thursday>9:00 AM - 5:00 PM</thursday>
+      <friday>9:00 AM - 5:00 PM</friday>
+      <saturday>Closed</saturday>
+      <sunday>Closed</sunday>
+    </opening_hours>
+  </business>
+
+  <business>
+    <name>Gasoline Bakeshop</name>
+    <address>Antipolo Gasan</address>
+    <phone>(212) 555-1234</phone>
+    <email>info@gasolinebakeshop.com</email>
+    <website>www.gasolinebakeshop.com</website>
+    <category>Bakery</category>
+    <description>Gasoline Bakeshop is a local bakery that offers a variety of baked goods and pastries.</description>
+    <logo>https://via.placeholder.com/200x200</logo>
+    <opening_hours>
+      <monday>9:00 AM - 5:00 PM</monday>
+      <tuesday>9:00 AM - 5:00 PM</tuesday>
+      <wednesday>9:00 AM - 5:00 PM</wednesday>
+      <thursday>9:00 AM - 5:00 PM</thursday>
+      <friday>9:00 AM - 5:00 PM</friday>
+      <saturday>Closed</saturday>
+      <sunday>Closed</sunday>
+    </opening_hours>
+  </business>
+  <business>
+    <name>Top of the Hill Bakeshop</name>
+    <address>Bachao Ibaba Gasan</address>
+    <phone>(212) 555-5678</phone>
+    <email>info@topofthehillbakeshop.com</email>
+    <website>www.topofthehillbakeshop.com</website>
+    <category>Bakery</category>
+    <description>Top of the Hill Bakeshop offers freshly baked breads and pastries daily.</description>
+    <logo>https://via.placeholder.com/200x200</logo>
+    <opening_hours>
+      <monday>9:00 AM - 5:00 PM</monday>
+      <tuesday>9:00 AM - 5:00 PM</tuesday>
+      <wednesday>9:00 AM - 5:00 PM</wednesday>
+      <thursday>9:00 AM - 5:00 PM</thursday>
+      <friday>9:00 AM - 5:00 PM</friday>
+      <saturday>Closed</saturday>
+      <sunday>Closed</sunday>
+    </opening_hours>
+  </business>
+  <business>
+    <name>Celestial Bakeshop</name>
+    <address>Bachao Ilaya Gasan</address>
+    <phone>(212) 555-9012</phone>
+    <email>info@celestialbakeshop.com</email>
+    <website>www.celestialbakeshop.com</website>
+    <category>Bakery</category>
+    <description>Celestial Bakeshop offers a wide variety of freshly baked goods and pastries made with locally sourced ingredients.</description>
+    <logo>https://via.placeholder.com/200x200</logo>
+    <opening_hours>
+      <monday>9:00 AM - 5:00 PM</monday>
+      <tuesday>9:00 AM - 5:00 PM</tuesday>
+      <wednesday>9:00 AM - 5:00 PM</wednesday>
+      <thursday>9:00 AM - 5:00 PM</thursday>
+      <friday>9:00 AM - 5:00 PM</friday>
+      <saturday>Closed</saturday>
+      <sunday>Closed</sunday>
+    </opening_hours>
+  </business>
+  <business>
+    <name>Bacong-Bacong Bakery</name>
+    <address>Bacong-Bacong Gasan</address>
+    <phone>(212) 555-3456</phone>
+    <email>info@bacong-bacongbakery.com</email>
+    <website>www.bacong-bacongbakery.com</website>
+    <category>Bakery</category>
+    <description>Bacong-Bacong Bakery is a family-owned business that has been providing the community with freshly baked goods for over 50 years.</description>
+    <logo>https://via.placeholder.com/200x200</logo>
+    <opening_hours>
+      <monday>9:00 AM - 5:00 PM</monday>
+      <tuesday>9:00 AM - 5:00 PM</tuesday>
+      <wednesday>9:00 AM - 5:00 PM</wednesday>
+      <thursday>9:00 AM - 5:00 PM</thursday>
+      <friday>9:00 AM - 5:00 PM</friday>
+      <saturday>Closed</saturday>
+      <sunday>Closed</sunday>
+    </opening_hours>
+  </business>
+  <business>
+    <name>Bahi Bakeshop</name>
+    <address>Bahi Gasan</address>
+    <phone>(212) 555-6789</phone>
+    <email>info@bahibakeshop.com</email>
+    <website>www.bahibakeshop.com</website>
+    <category>Bakery</category>
+    <description>Bahi Bakeshop specializes in traditional Filipino baked goods and pastries.</description>
+    <logo>https://via.placeholder.com/200x200</logo>
+    <opening_hours>
+      <monday>9:00 AM - 5:00 PM</monday>
+      <tuesday>9:00 AM - 5:00 PM</tuesday>
+      <wednesday>9:00 AM - 5:00 PM</wednesday>
+      <thursday>9:00 AM - 5:00 PM</thursday>
+      <friday>9:00 AM - 5:00 PM</friday>
+      <saturday>Closed</saturday>
+      <sunday>Closed</sunday>
+    </opening_hours>
+  </business>
+
+  <business>
+    <name>Sweet Sensations Bakery</name>
+    <address>Bachao Ilaya Gasan</address>
+    <phone>(212) 555-6789</phone>
+    <email>info@sweetsensations.com</email>
+    <website>www.sweetsensations.com</website>
+    <category>Bakery</category>
+    <description>At Sweet Sensations Bakery, we bake fresh bread, cakes, and pastries every day.</description>
+    <logo>https://via.placeholder.com/200x200</logo>
+    <opening_hours>
+      <monday>9:00 AM - 5:00 PM</monday>
+      <tuesday>9:00 AM - 5:00 PM</tuesday>
+      <wednesday>9:00 AM - 5:00 PM</wednesday>
+      <thursday>9:00 AM - 5:00 PM</thursday>
+      <friday>9:00 AM - 5:00 PM</friday>
+      <saturday>Closed</saturday>
+      <sunday>Closed</sunday>
+    </opening_hours>
+  </business>
+
+  <business>
+    <name>Buttercup Bakery</name>
+    <address>Pinggan Gasan</address>
+    <phone>(212) 555-4321</phone>
+    <email>info@buttercupbakery.com</email>
+    <website>www.buttercupbakery.com</website>
+    <category>Bakery</category>
+    <description>Buttercup Bakery specializes in artisanal breads and European-style pastries.</description>
+    <logo>https://via.placeholder.com/200x200</logo>
+    <opening_hours>
+      <monday>9:00 AM - 5:00 PM</monday>
+      <tuesday>9:00 AM - 5:00 PM</tuesday>
+      <wednesday>9:00 AM - 5:00 PM</wednesday>
+      <thursday>9:00 AM - 5:00 PM</thursday>
+      <friday>9:00 AM - 5:00 PM</friday>
+      <saturday>Closed</saturday>
+      <sunday>Closed</sunday>
+    </opening_hours>
+  </business>
+
+  <business>
+    <name>Cinnamon Swirl Bakery</name>
+    <address>Dawis Gasan</address>
+    <phone>(212) 555-2468</phone>
+    <email>info@cinnamonswirlbakery.com</email>
+    <website>www.cinnamonswirlbakery.com</website>
+    <category>Bakery</category>
+    <description>Cinnamon Swirl Bakery offers a variety of cinnamon rolls, muffins, and other baked goods.</description>
+    <logo>https://via.placeholder.com/200x200</logo>
+    <opening_hours>
+      <monday>9:00 AM - 5:00 PM</monday>
+      <tuesday>9:00 AM - 5:00 PM</tuesday>
+      <wednesday>9:00 AM - 5:00 PM</wednesday>
+      <thursday>9:00 AM - 5:00 PM</thursday>
+      <friday>9:00 AM - 5:00 PM</friday>
+      <saturday>Closed</saturday>
+      <sunday>Closed</sunday>
+    </opening_hours>
+  </business>
+
+  <business>
+    <name>Bread and Butter Bakery</name>
+    <address>Tiguion Gasan</address>
+    <phone>(212) 555-1357</phone>
+    <email>info@breadandbutterbakery.com</email>
+    <website>www.breadandbutterbakery.com</website>
+    <category>Bakery</category>
+    <description>Bread and Butter Bakery is your go-to destination for fresh artisanal bread and pastries.</description>
+    <logo>https://via.placeholder.com/200x200</logo>
+    <opening_hours>
+      <monday>9:00 AM - 5:00 PM</monday>
+      <tuesday>9:00 AM - 5:00 PM</tuesday>
+      <wednesday>9:00 AM - 5:00 PM</wednesday>
+      <thursday>9:00 AM - 5:00 PM</thursday>
+      <friday>9:00 AM - 5:00 PM</friday>
+      <saturday>Closed</saturday>
+      <sunday>Closed</sunday>
+    </opening_hours>
+  </business>
+
+  <business>
+    <name>Sunrise Bakery</name>
+    <address>Mangiliol Gasan</address>
+    <phone>(212) 555-9753</phone>
+    <email>info@sunrisebakery.com</email>
+    <website>www.sunrisebakery.com</website>
+    <category>Bakery</category>
+    <description>Sunrise Bakery serves up a variety of freshly baked breads, cakes, and pastries to start your day off right.</description>
+    <logo>https://via.placeholder.com/200x200</logo>
+    <opening_hours>
+      <monday>9:00 AM - 5:00 PM</monday>
+      <tuesday>9:00 AM - 5:00 PM</tuesday>
+      <wednesday>9:00 AM - 5:00 PM</wednesday>
+      <thursday>9:00 AM - 5:00 PM</thursday>
+      <friday>9:00 AM - 5:00 PM</friday>
+      <saturday>Closed</saturday>
+      <sunday>Closed</sunday>
+    </opening_hours>
+  </business>
+
+  <business>
+    <name>The Tipsy Tavern</name>
+    <address>Poblacion Torrijos</address>
+    <phone>(123) 456-7890</phone>
+    <email>info@tipsytavern.com</email>
+    <website>www.tipsytavern.com</website>
+    <category>Bar</category>
+    <description>The Tipsy Tavern is a cozy bar with a wide selection of drinks and great music.</description>
+    <logo>https://via.placeholder.com/200x200</logo>
+    <opening_hours>
+      <monday>9:00 AM - 5:00 PM</monday>
+      <tuesday>9:00 AM - 5:00 PM</tuesday>
+      <wednesday>9:00 AM - 5:00 PM</wednesday>
+      <thursday>9:00 AM - 5:00 PM</thursday>
+      <friday>9:00 AM - 5:00 PM</friday>
+      <saturday>Closed</saturday>
+      <sunday>Closed</sunday>
+    </opening_hours>
+  </business>
+
+  <business>
+    <name>Blue Lagoon Bar</name>
+    <address>Bayakbakin Torrijos</address>
+    <phone>(123) 456-7890</phone>
+    <email>info@bluelagoonbar.com</email>
+    <website>www.bluelagoonbar.com</website>
+    <category>Bar</category>
+    <description>Blue Lagoon Bar offers an amazing view of the ocean, delicious cocktails and live music.</description>
+    <logo>https://via.placeholder.com/200x200</logo>
+    <opening_hours>
+      <monday>9:00 AM - 5:00 PM</monday>
+      <tuesday>9:00 AM - 5:00 PM</tuesday>
+      <wednesday>9:00 AM - 5:00 PM</wednesday>
+      <thursday>9:00 AM - 5:00 PM</thursday>
+      <friday>9:00 AM - 5:00 PM</friday>
+      <saturday>Closed</saturday>
+      <sunday>Closed</sunday>
+    </opening_hours>
+  </business>
+
+  <business>
+    <name>The Dive Bar</name>
+    <address>Sibuyao Torrijos</address>
+    <phone>(123) 456-7890</phone>
+    <email>info@thedivebar.com</email>
+    <website>www.thedivebar.com</website>
+    <category>Bar</category>
+    <description>The Dive Bar is a popular hangout spot for locals and tourists alike, with a friendly atmosphere and great drinks.</description>
+    <logo>https://via.placeholder.com/200x200</logo>
+    <opening_hours>
+      <monday>9:00 AM - 5:00 PM</monday>
+      <tuesday>9:00 AM - 5:00 PM</tuesday>
+      <wednesday>9:00 AM - 5:00 PM</wednesday>
+      <thursday>9:00 AM - 5:00 PM</thursday>
+      <friday>9:00 AM - 5:00 PM</friday>
+      <saturday>Closed</saturday>
+      <sunday>Closed</sunday>
+    </opening_hours>
+  </business>
+
+  <business>
+    <name>Hangout Bar</name>
+    <address>Buangan Torrijos</address>
+    <phone>(123) 456-7890</phone>
+    <email>info@hangoutbar.com</email>
+    <website>www.hangoutbar.com</website>
+    <category>Bar</category>
+    <description>Hangout Bar is a laid-back bar that's perfect for relaxing with friends and enjoying some drinks and snacks.</description>
+    <logo>https://via.placeholder.com/200x200</logo>
+    <opening_hours>
+      <monday>9:00 AM - 5:00 PM</monday>
+      <tuesday>9:00 AM - 5:00 PM</tuesday>
+      <wednesday>9:00 AM - 5:00 PM</wednesday>
+      <thursday>9:00 AM - 5:00 PM</thursday>
+      <friday>9:00 AM - 5:00 PM</friday>
+      <saturday>Closed</saturday>
+      <sunday>Closed</sunday>
+    </opening_hours>
+  </business>
+
+  <business>
+    <name>Seaside Bar and Grill</name>
+    <address>Matuyatuya Torrijos</address>
+    <phone>(123) 456-7890</phone>
+    <email>info@seasidebarandgrill.com</email>
+    <website>www.seasidebarandgrill.com</website>
+    <category>Bar</category>
+    <description>Seaside Bar and Grill is a popular beachfront bar that serves up delicious food, refreshing drinks and live music.</description>
+    <logo>https://via.placeholder.com/200x200</logo>
+    <opening_hours>
+      <monday>9:00 AM - 5:00 PM</monday>
+      <tuesday>9:00 AM - 5:00 PM</tuesday>
+      <wednesday>9:00 AM - 5:00 PM</wednesday>
+      <thursday>9:00 AM - 5:00 PM</thursday>
+      <friday>9:00 AM - 5:00 PM</friday>
+      <saturday>Closed</saturday>
+      <sunday>Closed</sunday>
+    </opening_hours>
+  </business>
+
+  <business>
+    <name>The Whiskey Barrel</name>
+    <address>Poctoy Torrijos</address>
+    <phone>(123) 456-7890</phone>
+    <email>info@whiskeybarrel.com</email>
+    <website>www.whiskeybarrel.com</website>
+    <category>Bar</category>
+    <description>The Whiskey Barrel is a whiskey-lover's paradise, with a huge selection of whiskeys and a cozy atmosphere.</description>
+    <logo>https://via.placeholder.com/200x200</logo>
+    <opening_hours>
+      <monday>9:00 AM - 5:00 PM</monday>
+      <tuesday>9:00 AM - 5:00 PM</tuesday>
+      <wednesday>9:00 AM - 5:00 PM</wednesday>
+      <thursday>9:00 AM - 5:00 PM</thursday>
+      <friday>9:00 AM - 5:00 PM</friday>
+      <saturday>Closed</saturday>
+      <sunday>Closed</sunday>
+    </opening_hours>
+  </business>
+
+  <business>
+    <name>Bar Langit</name>
+    <address>Talawan Torrijos</address>
+    <phone>(212) 555-1234</phone>
+    <email>info@barlangit.com</email>
+    <website>www.barlangit.com</website>
+    <category>Food &amp; Beverage</category>
+    <description>Bar Langit offers delicious food and drinks in a cozy atmosphere.</description>
+    <logo>https://via.placeholder.com/200x200</logo>
+    <opening_hours>
+      <monday>9:00 AM - 5:00 PM</monday>
+      <tuesday>9:00 AM - 5:00 PM</tuesday>
+      <wednesday>9:00 AM - 5:00 PM</wednesday>
+      <thursday>9:00 AM - 5:00 PM</thursday>
+      <friday>9:00 AM - 5:00 PM</friday>
+      <saturday>Closed</saturday>
+      <sunday>Closed</sunday>
+    </opening_hours>
+  </business>
+
+  <business>
+    <name>Bar Juan</name>
+    <address>Payanas Torrijos</address>
+    <phone>(212) 555-1234</phone>
+    <email>info@barjuan.com</email>
+    <website>www.barjuan.com</website>
+    <category>Food &amp; Beverage</category>
+    <description>Bar Juan serves mouth-watering dishes and refreshing drinks in a lively environment.</description>
+    <logo>https://via.placeholder.com/200x200</logo>
+    <opening_hours>
+      <monday>9:00 AM - 5:00 PM</monday>
+      <tuesday>9:00 AM - 5:00 PM</tuesday>
+      <wednesday>9:00 AM - 5:00 PM</wednesday>
+      <thursday>9:00 AM - 5:00 PM</thursday>
+      <friday>9:00 AM - 5:00 PM</friday>
+      <saturday>Closed</saturday>
+      <sunday>Closed</sunday>
+    </opening_hours>
+  </business>
+
+  <business>
+    <name>Bar Miguel</name>
+    <address>Sibuyao Torrijos</address>
+    <phone>(212) 555-1234</phone>
+    <email>info@barmiguel.com</email>
+    <website>www.barmiguel.com</website>
+    <category>Food &amp; Beverage</category>
+    <description>Bar Miguel is a go-to spot for delicious food, drinks, and great music.</description>
+    <logo>https://via.placeholder.com/200x200</logo>
+    <opening_hours>
+      <monday>9:00 AM - 5:00 PM</monday>
+      <tuesday>9:00 AM - 5:00 PM</tuesday>
+      <wednesday>9:00 AM - 5:00 PM</wednesday>
+      <thursday>9:00 AM - 5:00 PM</thursday>
+      <friday>9:00 AM - 5:00 PM</friday>
+      <saturday>Closed</saturday>
+      <sunday>Closed</sunday>
+    </opening_hours>
+  </business>
+
+  <business>
+    <name>Bar Rosa</name>
+    <address>Bolo Torrijos</address>
+    <phone>(212) 555-1234</phone>
+    <email>info@barrosa.com</email>
+    <website>www.barrosa.com</website>
+    <category>Food &amp; Beverage</category>
+    <description>Bar Rosa is a trendy hangout spot for friends and family to enjoy tasty food and drinks.</description>
+    <logo>https://via.placeholder.com/200x200</logo>
+    <opening_hours>
+      <monday>9:00 AM - 5:00 PM</monday>
+      <tuesday>9:00 AM - 5:00 PM</tuesday>
+      <wednesday>9:00 AM - 5:00 PM</wednesday>
+      <thursday>9:00 AM - 5:00 PM</thursday>
+      <friday>9:00 AM - 5:00 PM</friday>
+      <saturday>Closed</saturday>
+      <sunday>Closed</sunday>
+    </opening_hours>
+  </business>
+
+  <business>
+    <name>Barrio Bar</name>
+    <address>Poblacion Torrijos</address>
+    <phone>(212) 555-1234</phone>
+    <email>info@barriobar.com</email>
+    <website>www.barriobar.com</website>
+    <category>Food &amp; Beverage</category>
+    <description>Barrio Bar offers a laid-back atmosphere for guests to savor delicious food and drinks.</description>
+    <logo>https://via.placeholder.com/200x200</logo>
+    <opening_hours>
+      <monday>9:00 AM - 5:00 PM</monday>
+      <tuesday>9:00 AM - 5:00 PM</tuesday>
+      <wednesday>9:00 AM - 5:00 PM</wednesday>
+      <thursday>9:00 AM - 5:00 PM</thursday>
+      <friday>9:00 AM - 5:00 PM</friday>
+      <saturday>Closed</saturday>
+      <sunday>Closed</sunday>
+    </opening_hours>
+  </business>
+  <!-- ================= -->
+  <business>
+    <name>The Book Nook</name>
+    <address>Aturan Sta. Cruz</address>
+    <phone>(02) 123-4567</phone>
+    <email>info@thebooknook.com</email>
+    <website>www.thebooknook.com</website>
+    <category>Bookstore</category>
+    <description>A cozy bookstore offering a wide selection of books for all ages.</description>
+    <logo>https://via.placeholder.com/200x200</logo>
+    <opening_hours>
+      <monday>9:00 AM - 5:00 PM</monday>
+      <tuesday>9:00 AM - 5:00 PM</tuesday>
+      <wednesday>9:00 AM - 5:00 PM</wednesday>
+      <thursday>9:00 AM - 5:00 PM</thursday>
+      <friday>9:00 AM - 5:00 PM</friday>
+      <saturday>Closed</saturday>
+      <sunday>Closed</sunday>
+    </opening_hours>
+
+  </business>
+
+  <business>
+    <name>Read and Relax</name>
+    <address>Bangcuangan Sta. Cruz</address>
+    <phone>(02) 234-5678</phone>
+    <email>info@readandrelax.com</email>
+    <website>www.readandrelax.com</website>
+    <category>Bookstore</category>
+    <description>A tranquil bookstore where you can find your next favorite book and unwind at the same time.</description>
+    <logo>https://via.placeholder.com/200x200</logo>
+    <opening_hours>
+      <monday>9:00 AM - 5:00 PM</monday>
+      <tuesday>9:00 AM - 5:00 PM</tuesday>
+      <wednesday>9:00 AM - 5:00 PM</wednesday>
+      <thursday>9:00 AM - 5:00 PM</thursday>
+      <friday>9:00 AM - 5:00 PM</friday>
+      <saturday>Closed</saturday>
+      <sunday>Closed</sunday>
+    </opening_hours>
+
+  </business>
+
+  <business>
+    <name>Book Haven</name>
+    <address>Dating Bayan Sta. Cruz</address>
+    <phone>(02) 345-6789</phone>
+    <email>info@bookhaven.com</email>
+    <website>www.bookhaven.com</website>
+    <category>Bookstore</category>
+    <description>A haven for book lovers, offering a wide range of books and a cozy reading area.</description>
+    <logo>https://via.placeholder.com/200x200</logo>
+    <opening_hours>
+      <monday>9:00 AM - 5:00 PM</monday>
+      <tuesday>9:00 AM - 5:00 PM</tuesday>
+      <wednesday>9:00 AM - 5:00 PM</wednesday>
+      <thursday>9:00 AM - 5:00 PM</thursday>
+      <friday>9:00 AM - 5:00 PM</friday>
+      <saturday>Closed</saturday>
+      <sunday>Closed</sunday>
+    </opening_hours>
+
+  </business>
+
+  <business>
+    <name>Page Turners</name>
+    <address>Hupi Sta. Cruz</address>
+    <phone>(02) 456-7890</phone>
+    <email>info@pageturners.com</email>
+    <website>www.pageturners.com</website>
+    <category>Bookstore</category>
+    <description>A place where you can lose yourself in a good book, with a diverse collection of titles to choose from.</description>
+    <logo>https://via.placeholder.com/200x200</logo>
+    <opening_hours>
+      <monday>9:00 AM - 5:00 PM</monday>
+      <tuesday>9:00 AM - 5:00 PM</tuesday>
+      <wednesday>9:00 AM - 5:00 PM</wednesday>
+      <thursday>9:00 AM - 5:00 PM</thursday>
+      <friday>9:00 AM - 5:00 PM</friday>
+      <saturday>Closed</saturday>
+      <sunday>Closed</sunday>
+    </opening_hours>
+
+  </business>
+
+  <business>
+    <name>Book Lovers' Den</name>
+    <address>Kalangkang Sta. Cruz</address>
+    <phone>(02) 567-8901</phone>
+    <email>info@bookloversden.com</email>
+    <website>www.bookloversden.com</website>
+    <category>Bookstore</category>
+    <description>A cozy bookstore for all book lovers, with a friendly atmosphere and a great selection of titles.</description>
+    <logo>https://via.placeholder.com/200x200</logo>
+    <opening_hours>
+      <monday>9:00 AM - 5:00 PM</monday>
+      <tuesday>9:00 AM - 5:00 PM</tuesday>
+      <wednesday>9:00 AM - 5:00 PM</wednesday>
+      <thursday>9:00 AM - 5:00 PM</thursday>
+      <friday>9:00 AM - 5:00 PM</friday>
+      <saturday>Closed</saturday>
+      <sunday>Closed</sunday>
+    </opening_hours>
+
+  </business>
+
+  <business>
+    <name>The Literary Corner</name>
+    <address>Libjo Sta. Cruz</address>
+    <phone>(02) 678-9012</phone>
+    <email>info@theliterarycorner.com</email>
+    <website>www.theliterarycorner.com</website>
+    <category>Bookstore</category>
+    <description>A bookstore for the discerning reader, with a focus on literary works and classics.</description>
+    <logo>https://via.placeholder.com/200x200</logo>
+    <opening_hours>
+      <monday>9:00 AM - 5:00 PM</monday>
+      <tuesday>9:00 AM - 5:00 PM</tuesday>
+      <wednesday>9:00 AM - 5:00 PM</wednesday>
+      <thursday>9:00 AM - 5:00 PM</thursday>
+      <friday>9:00 AM - 5:00 PM</friday>
+      <saturday>Closed</saturday>
+      <sunday>Closed</sunday>
+    </opening_hours>
+
+  </business>
+  <business>
+    <name>Book Haven</name>
+    <address>Brgy. Banogbog, Sta. Cruz</address>
+    <phone>(049) 555-6789</phone>
+    <email>bookhaven@gmail.com</email>
+    <website>www.bookhaven.com</website>
+    <category>Bookstore</category>
+    <description>Book Haven offers a wide selection of books for all ages and interests.</description>
+    <logo>https://via.placeholder.com/200x200</logo>
+    <opening_hours>
+      <monday>9:00 AM - 5:00 PM</monday>
+      <tuesday>9:00 AM - 5:00 PM</tuesday>
+      <wednesday>9:00 AM - 5:00 PM</wednesday>
+      <thursday>9:00 AM - 5:00 PM</thursday>
+      <friday>9:00 AM - 5:00 PM</friday>
+      <saturday>Closed</saturday>
+      <sunday>Closed</sunday>
+    </opening_hours>
+
+  </business>
+
+  <business>
+    <name>The Book Stop</name>
+    <address>Brgy. Kaganhao, Sta. Cruz</address>
+    <phone>(049) 555-1234</phone>
+    <email>info@bookstop.com</email>
+    <website>www.bookstop.com</website>
+    <category>Bookstore</category>
+    <description>The Book Stop is the perfect place to find your next favorite read.</description>
+    <logo>https://via.placeholder.com/200x200</logo>
+    <opening_hours>
+      <monday>9:00 AM - 5:00 PM</monday>
+      <tuesday>9:00 AM - 5:00 PM</tuesday>
+      <wednesday>9:00 AM - 5:00 PM</wednesday>
+      <thursday>9:00 AM - 5:00 PM</thursday>
+      <friday>9:00 AM - 5:00 PM</friday>
+      <saturday>Closed</saturday>
+      <sunday>Closed</sunday>
+    </opening_hours>
+
+  </business>
+
+  <business>
+    <name>Read and Relax</name>
+    <address>Brgy. Biga, Sta. Cruz</address>
+    <phone>(049) 555-5678</phone>
+    <email>readrelax@yahoo.com</email>
+    <website>www.readrelax.com</website>
+    <category>Bookstore</category>
+    <description>At Read and Relax, you can enjoy a comfortable atmosphere while browsing through our extensive collection of books.</description>
+    <logo>https://via.placeholder.com/200x200</logo>
+    <opening_hours>
+      <monday>9:00 AM - 5:00 PM</monday>
+      <tuesday>9:00 AM - 5:00 PM</tuesday>
+      <wednesday>9:00 AM - 5:00 PM</wednesday>
+      <thursday>9:00 AM - 5:00 PM</thursday>
+      <friday>9:00 AM - 5:00 PM</friday>
+      <saturday>Closed</saturday>
+      <sunday>Closed</sunday>
+    </opening_hours>
+
+  </business>
+
+  <business>
+    <name>The Book Nook</name>
+    <address>Brgy. Taytay, Sta. Cruz</address>
+    <phone>(049) 555-9876</phone>
+    <email>booknook@gmail.com</email>
+    <website>www.booknook.com</website>
+    <category>Bookstore</category>
+    <description>Find your next great read at The Book Nook.</description>
+    <logo>https://via.placeholder.com/200x200</logo>
+    <opening_hours>
+      <monday>9:00 AM - 5:00 PM</monday>
+      <tuesday>9:00 AM - 5:00 PM</tuesday>
+      <wednesday>9:00 AM - 5:00 PM</wednesday>
+      <thursday>9:00 AM - 5:00 PM</thursday>
+      <friday>9:00 AM - 5:00 PM</friday>
+      <saturday>Closed</saturday>
+      <sunday>Closed</sunday>
+    </opening_hours>
+
+  </business>
+
+  <business>
+    <name>Bookworms' Paradise</name>
+    <address>Brgy. Lusok, Sta. Cruz</address>
+    <phone>(049) 555-2468</phone>
+    <email>bookwormsparadise@hotmail.com</email>
+    <website>www.bookwormsparadise.com</website>
+    <category>Bookstore</category>
+    <description>At Bookworms' Paradise, we have something for everyone.</description>
+    <logo>https://via.placeholder.com/200x200</logo>
+    <opening_hours>
+      <monday>9:00 AM - 5:00 PM</monday>
+      <tuesday>9:00 AM - 5:00 PM</tuesday>
+      <wednesday>9:00 AM - 5:00 PM</wednesday>
+      <thursday>9:00 AM - 5:00 PM</thursday>
+      <friday>9:00 AM - 5:00 PM</friday>
+      <saturday>Closed</saturday>
+      <sunday>Closed</sunday>
+    </opening_hours>
+
+  </business>
+
+  <business>
+    <name>Coffee Bay</name>
+    <address>Bocboc, Mogpog</address>
+    <phone>(0999) 123-4567</phone>
+    <email>info@coffeebay.com</email>
+    <website>www.coffeebay.com</website>
+    <category>Cafe</category>
+    <description>Coffee Bay serves premium coffee blends and pastries.</description>
+    <logo>https://via.placeholder.com/200x200</logo>
+    <opening_hours>
+      <monday>9:00 AM - 5:00 PM</monday>
+      <tuesday>9:00 AM - 5:00 PM</tuesday>
+      <wednesday>9:00 AM - 5:00 PM</wednesday>
+      <thursday>9:00 AM - 5:00 PM</thursday>
+      <friday>9:00 AM - 5:00 PM</friday>
+      <saturday>Closed</saturday>
+      <sunday>Closed</sunday>
+    </opening_hours>
+  </business>
+
+  <business>
+    <name>Barista Brew</name>
+    <address>Silangan, Mogpog</address>
+    <phone>(0999) 234-5678</phone>
+    <email>info@baristabrew.com</email>
+    <website>www.baristabrew.com</website>
+    <category>Cafe</category>
+    <description>Barista Brew offers artisanal coffee and gourmet sandwiches.</description>
+    <logo>https://via.placeholder.com/200x200</logo>
+    <opening_hours>
+      <monday>9:00 AM - 5:00 PM</monday>
+      <tuesday>9:00 AM - 5:00 PM</tuesday>
+      <wednesday>9:00 AM - 5:00 PM</wednesday>
+      <thursday>9:00 AM - 5:00 PM</thursday>
+      <friday>9:00 AM - 5:00 PM</friday>
+      <saturday>Closed</saturday>
+      <sunday>Closed</sunday>
+    </opening_hours>
+  </business>
+
+  <business>
+    <name>Mango Munch Cafe</name>
+    <address>Lamesa, Mogpog</address>
+    <phone>(0999) 345-6789</phone>
+    <email>info@mangomunchcafe.com</email>
+    <website>www.mangomunchcafe.com</website>
+    <category>Cafe</category>
+    <description>Mango Munch Cafe serves fruit smoothies and fresh baked pastries.</description>
+    <logo>https://via.placeholder.com/200x200</logo>
+    <opening_hours>
+      <monday>9:00 AM - 5:00 PM</monday>
+      <tuesday>9:00 AM - 5:00 PM</tuesday>
+      <wednesday>9:00 AM - 5:00 PM</wednesday>
+      <thursday>9:00 AM - 5:00 PM</thursday>
+      <friday>9:00 AM - 5:00 PM</friday>
+      <saturday>Closed</saturday>
+      <sunday>Closed</sunday>
+    </opening_hours>
+  </business>
+
+  <business>
+    <name>Vanilla Bean Cafe</name>
+    <address>Hinadharan, Mogpog</address>
+    <phone>(0999) 456-7890</phone>
+    <email>info@vanillabeancafe.com</email>
+    <website>www.vanillabeancafe.com</website>
+    <category>Cafe</category>
+    <description>Vanilla Bean Cafe offers specialty coffee and homemade cakes.</description>
+    <logo>https://via.placeholder.com/200x200</logo>
+    <opening_hours>
+      <monday>9:00 AM - 5:00 PM</monday>
+      <tuesday>9:00 AM - 5:00 PM</tuesday>
+      <wednesday>9:00 AM - 5:00 PM</wednesday>
+      <thursday>9:00 AM - 5:00 PM</thursday>
+      <friday>9:00 AM - 5:00 PM</friday>
+      <saturday>Closed</saturday>
+      <sunday>Closed</sunday>
+    </opening_hours>
+  </business>
+
+  <business>
+    <name>Brewed Awakening</name>
+    <address>Magapua, Mogpog</address>
+    <phone>(0999) 567-8901</phone>
+    <email>info@brewedawakening.com</email>
+    <website>www.brewedawakening.com</website>
+    <category>Cafe</category>
+    <description>Brewed Awakening serves organic coffee and healthy snacks.</description>
+    <logo>https://via.placeholder.com/200x200</logo>
+    <opening_hours>
+      <monday>9:00 AM - 5:00 PM</monday>
+      <tuesday>9:00 AM - 5:00 PM</tuesday>
+      <wednesday>9:00 AM - 5:00 PM</wednesday>
+      <thursday>9:00 AM - 5:00 PM</thursday>
+      <friday>9:00 AM - 5:00 PM</friday>
+      <saturday>Closed</saturday>
+      <sunday>Closed</sunday>
+    </opening_hours>
+  </business>
+
+  <business>
+    <name>Java Junction</name>
+    <address>Hinanggayon, Mogpog</address>
+    <phone>(0999) 678-9012</phone>
+    <email>info@javajunction.com</email>
+    <website>www.javajunction.com</website>
+    <category>Cafe</category>
+    <description>Java Junction offers a variety of coffee blends and sandwiches.</description>
+    <logo>https://via.placeholder.com/200x200</logo>
+    <opening_hours>
+      <monday>9:00 AM - 5:00 PM</monday>
+      <tuesday>9:00 AM - 5:00 PM</tuesday>
+      <wednesday>9:00 AM - 5:00 PM</wednesday>
+      <thursday>9:00 AM - 5:00 PM</thursday>
+      <friday>9:00 AM - 5:00 PM</friday>
+      <saturday>Closed</saturday>
+      <sunday>Closed</sunday>
+    </opening_hours>
+  </business>
+  <!-- ============ -->
+  <business>
+    <name>Caffeine Fix at Bocboc</name>
+    <address>Bocboc, Mogpog</address>
+    <phone>(212) 555-1234</phone>
+    <email>info@caffinefix.com</email>
+    <website>www.caffinefix.com</website>
+    <category>Coffee Shop</category>
+    <description>Caffeine Fix offers a wide variety of coffee and tea drinks, along with light snacks and pastries.</description>
+    <logo>https://via.placeholder.com/200x200</logo>
+    <opening_hours>
+      <monday>9:00 AM - 5:00 PM</monday>
+      <tuesday>9:00 AM - 5:00 PM</tuesday>
+      <wednesday>9:00 AM - 5:00 PM</wednesday>
+      <thursday>9:00 AM - 5:00 PM</thursday>
+      <friday>9:00 AM - 5:00 PM</friday>
+      <saturday>Closed</saturday>
+      <sunday>Closed</sunday>
+    </opening_hours>
+  </business>
+  <business>
+    <name>Java Junction at Hinanggayon</name>
+    <address>Hinanggayon, Mogpog</address>
+    <phone>(212) 555-1234</phone>
+    <email>info@javajunction.com</email>
+    <website>www.javajunction.com</website>
+    <category>Coffee Shop</category>
+    <description>Java Junction serves up delicious coffee and tea drinks, as well as sandwiches and other light bites.</description>
+    <logo>https://via.placeholder.com/200x200</logo>
+    <opening_hours>
+      <monday>9:00 AM - 5:00 PM</monday>
+      <tuesday>9:00 AM - 5:00 PM</tuesday>
+      <wednesday>9:00 AM - 5:00 PM</wednesday>
+      <thursday>9:00 AM - 5:00 PM</thursday>
+      <friday>9:00 AM - 5:00 PM</friday>
+      <saturday>Closed</saturday>
+      <sunday>Closed</sunday>
+    </opening_hours>
+  </business>
+  <business>
+    <name>The Tea Room at Capayang</name>
+    <address>Capayang, Mogpog</address>
+    <phone>(212) 555-1234</phone>
+    <email>info@tearoom.com</email>
+    <website>www.tearoom.com</website>
+    <category>Coffee Shop</category>
+    <description>The Tea Room is a cozy spot to enjoy a wide variety of tea drinks, as well as light snacks and desserts.</description>
+    <logo>https://via.placeholder.com/200x200</logo>
+    <opening_hours>
+      <monday>9:00 AM - 5:00 PM</monday>
+      <tuesday>9:00 AM - 5:00 PM</tuesday>
+      <wednesday>9:00 AM - 5:00 PM</wednesday>
+      <thursday>9:00 AM - 5:00 PM</thursday>
+      <friday>9:00 AM - 5:00 PM</friday>
+      <saturday>Closed</saturday>
+      <sunday>Closed</sunday>
+    </opening_hours>
+  </business>
+  <business>
+    <name>Whisk Away at Magapua</name>
+    <address>Magapua, Mogpog</address>
+    <phone>(212) 555-1234</phone>
+    <email>info@whiskaway.com</email>
+    <website>www.whiskaway.com</website>
+    <category>Bakery and Cafe</category>
+    <description>Whisk Away is a cozy bakery and cafe that serves up fresh pastries, sandwiches, and coffee drinks.</description>
+    <logo>https://via.placeholder.com/200x200</logo>
+    <opening_hours>
+      <monday>9:00 AM - 5:00 PM</monday>
+      <tuesday>9:00 AM - 5:00 PM</tuesday>
+      <wednesday>9:00 AM - 5:00 PM</wednesday>
+      <thursday>9:00 AM - 5:00 PM</thursday>
+      <friday>9:00 AM - 5:00 PM</friday>
+      <saturday>Closed</saturday>
+      <sunday>Closed</sunday>
+    </opening_hours>
+  </business>
+  <business>
+    <name>The Mug at Nangka II</name>
+    <address>Nangka II, Mogpog</address>
+    <phone>(212) 555-1234</phone>
+    <email>info@themug.com</email>
+    <website>www.themug.com</website>
+    <category>Coffee Shop</category>
+    <description>The Mug is a charming coffee shop that offers a wide range of coffee and tea drinks, as well as light bites and desserts.</description>
+    <logo>https://via.placeholder.com/200x200</logo>
+    <opening_hours>
+      <monday>9:00 AM - 5:00 PM</monday>
+      <tuesday>9:00 AM - 5:00 PM</tuesday>
+      <wednesday>9:00 AM - 5:00 PM</wednesday>
+      <thursday>9:00 AM - 5:00 PM</thursday>
+      <friday>9:00 AM - 5:00 PM</friday>
+      <saturday>Closed</saturday>
+      <sunday>Closed</sunday>
+    </opening_hours>
+  </business>
+
 </directory>

@@ -27,8 +27,13 @@ $matches = array_filter($businesses, function ($business) use ($search_term, $se
     return $search_term_match && $search_location_match;
 });
 
+// Randomize the order of matches
+shuffle($matches);
+
 // Output the search results as HTML
 if (count($matches) > 0) {
+  echo "<div class='container' style='text-transform: uppercase;'><h4>{$search_term} {$search_location}</h4></div>";
+
     foreach ($matches as $match) {
         if ($page_name == "index.html") {
             echo "<div class='col-lg-3 col-md-4 col-sm-6 col-12'>

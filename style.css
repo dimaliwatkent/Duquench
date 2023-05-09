@@ -5,34 +5,19 @@ body {
 .hr {
   border-top: 5px solid;
 }
+
 p {
   margin: 0 !important;
 }
 
-.navbar {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 1000;
-  background-color: rgba(28, 16, 10, 0.9);
-}
-.navbar-brand h1 {
-  font-family: "Playfair Display", serif;
-  color: #954c2a;
-  font-size: 25px;
-  text-shadow: 2px 2px 5px #00000065;
-}
-.navbar-brand span {
-  font-size: 18px;
-  color: #ffffff;
-}
-
+/* HOME SEARCH PAGE */
 .home-search {
   padding-top: 70px;
   position: relative;
   height: 570px;
   z-index: 1;
 }
+
 .home-search .container {
   margin-top: 100px;
 }
@@ -42,10 +27,12 @@ p {
   text-shadow: 2px 2px 10px #000000;
   font-size: 65px;
 }
+
 .home-search button {
   background-color: rgba(45, 25, 16, 0.8);
   border-color: #ffffff;
 }
+
 .home-search button:hover {
   background-color: #3d2418;
   border-color: #ffffff;
@@ -55,12 +42,15 @@ p {
   background-color: rgba(45, 25, 16, 0.8);
   border-color: #ffffff;
 }
+
 .home-search input::placeholder {
   color: white;
 }
+
 .home-search input:not(:focus) {
   color: white;
 }
+
 .home-search input:focus {
   background-color: #3d2418;
   border-color: #ffffff;
@@ -73,10 +63,10 @@ p {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  /* height: 600px; */
   background-attachment: fixed;
 }
 
+/* MUNICIPALITIES BUTTON FILTER */
 #municipalities-button {
   display: flex;
   justify-content: center;
@@ -94,18 +84,22 @@ p {
   align-items: center;
   justify-content: center;
 }
+
 #municipalities-button .btn:hover {
   background-color: #785848;
 }
+
 .btn-secondary.active {
   background-color: #32251f !important;
 }
+
 .form-inline .form-group {
   display: inline-block;
   width: auto;
   vertical-align: middle;
 }
 
+/* CONTENTS IN HOME PAGE */
 .content h1 {
   font-family: "Playfair Display", serif;
   text-align: center;
@@ -123,10 +117,12 @@ p {
   transition: box-shadow 0.2s ease-in-out;
   border: 1px solid #ffffff;
 }
+
 .business-thumbnail:hover {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   border: 1px solid #553323;
 }
+
 .business-details {
   position: relative;
   height: 85px;
@@ -146,6 +142,7 @@ p {
   white-space: nowrap; /* Prevent line breaks */
   display: block; /* Apply text-overflow property correctly */
 }
+
 .business-name a:hover {
   color: #a46b51;
 }
@@ -164,10 +161,58 @@ p {
 }
 
 .business-thumbnail img {
-  width: 100%; /* Set width to fill parent div */
-  height: 150px; /* Maintain aspect ratio */
+  width: 100%;
+  height: 150px;
 }
 
-.footer {
-  background-color: #3d2418;
+/* SEARCH PAGE RESULTS */
+
+#search-results .container .row {
+  border-radius: 5px;
+  height: 200px;
+  background-color: rgba(250, 235, 215, 0.307);
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.2s ease-in-out;
+  border: 1px solid #ffffff;
+}
+
+#search-results .container .row:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border: 1px solid #553323;
+}
+
+#search-results .col-md-4 {
+  padding: 10px;
+  width: 20%;
+  max-width: 100%;
+  max-height: 100%;
+  display: inline-block;
+}
+
+#search-results .col-md-8 {
+  padding: 10px;
+  width: 70%;
+  max-width: 100%;
+  display: inline-block;
+}
+
+#search-results .container .business-img {
+  border-radius: 5px;
+  width: 100%;
+  max-height: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+#search-results .container h2 {
+  color: #3d2418;
+}
+
+#search-results .business-description {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 100%;
 }
