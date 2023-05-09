@@ -7,8 +7,8 @@ $xml = simplexml_load_file('directory.xml');
 $matches = [];
 $search_term = isset($_POST['search-term']) ? $_POST['search-term'] : '';
 $search_location = isset($_POST['search-location']) ? $_POST['search-location'] : '';
-
-
+$page_name = isset($_POST['page-name']) ? $_POST['page-name'] : '';
+// $pageName = $_POST["pageName"];
 
 foreach ($xml->business as $business) {
     // Check if search term and/or location match any of the fields
@@ -25,6 +25,7 @@ foreach ($xml->business as $business) {
 // Output the search results as HTML
 if (count($matches) > 0) {
     foreach ($matches as $match) {
+      if ($page_name == "index.html") {
         echo "<div class='col-lg-3 col-md-4 col-sm-6 col-12'>
 
         <div class='business-thumbnail'>
@@ -40,14 +41,19 @@ if (count($matches) > 0) {
             </div>
           </div>
       </div>";
-        // <h2>{$match->name}</h2>
-        // <img src='{$match->logo}' alt='Logo'>
-        // <p>{$match->description}</p>
-        // <p>Address: {$match->address}</p>
-        // <p>Phone: {$match->phone}</p>
-        // <p>Email: {$match->email}</p>
-        // <p>Website: {$match->website}</p>
-        // <hr>
+      }
+      else if ($page_name == "search_page.html") {
+        echo "<h2>{$match->name}</h2>
+        <img src='{$match->logo}' alt='Logo'>
+        <p>{$match->description}</p>
+        <p>Address: {$match->address}</p>
+        <p>Phone: {$match->phone}</p>
+        <p>Email: {$match->email}</p>
+        <p>Website: {$match->website}</p>
+        <hr>";
+      }
+        
+       
     }
 } else {
     echo "<p>No matches found</p>";
