@@ -22,41 +22,6 @@
     />
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script>
-      $(document).ready(function () {
-        $("form").submit(function (event) {
-          event.preventDefault();
-          let searchTerm = $("#search-term").val();
-          let searchLocation = $("#search-location").val();
-          let pageName = $("#page-name").val();
-          $.post(
-            "search.php",
-            {
-              "search-term": searchTerm,
-              "search-location": searchLocation,
-              "page-name": pageName,
-            },
-            function (data) {
-              $("#search-results").html(data);
-            }
-          );
-        });
-      });
-    </script>
-    <script>
-      $(document).ready(function () {
-        // Get the search term and location values from the URL query parameters
-        let params = new URLSearchParams(location.search);
-        let searchTerm = params.get("search-term");
-        let searchLocation = params.get("search-location");
-
-        // Set the input field values
-        $("#search-term").val(searchTerm);
-        $("#search-location").val(searchLocation);
-
-        $("form").submit();
-      });
-    </script>
   </head>
   <body>
     <nav class="navbar navbar-expand-md navbar-dark fixed-top">
@@ -114,5 +79,6 @@
 
     <div id="search-results"></div>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>

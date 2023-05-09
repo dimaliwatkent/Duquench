@@ -8,52 +8,66 @@ $matches = [];
 $search_term = isset($_POST['search-term']) ? $_POST['search-term'] : '';
 $search_location = isset($_POST['search-location']) ? $_POST['search-location'] : '';
 $page_name = isset($_POST['page-name']) ? $_POST['page-name'] : '';
-// $pageName = $_POST["pageName"];
 
-foreach ($xml->business as $business) {
-    // Check if search term and/or location match any of the fields
-    $search_term_match = ($search_term === '' || stristr($business->name, $search_term) !== false || stristr($business->address, $search_term) !== false || stristr($business->phone, $search_term) !== false || stristr($business->email, $search_term) !== false || stristr($business->website, $search_term) !== false || stristr($business->category, $search_term) !== false || stristr($business->description, $search_term) !== false);
+// Convert SimpleXML object to array
+$businesses = json_decode(json_encode($xml), true)['business'];
+
+// Filter businesses based on search term and location
+$matches = array_filter($businesses, function ($business) use ($search_term, $search_location) {
+    $search_term_match = empty($search_term) || stripos($business['name'], $search_term) !== false 
+        || stripos($business['address'], $search_term) !== false 
+        || stripos($business['phone'], $search_term) !== false 
+        || stripos($business['email'], $search_term) !== false 
+        || stripos($business['website'], $search_term) !== false 
+        || stripos($business['category'], $search_term) !== false 
+        || stripos($business['description'], $search_term) !== false;
     
-    $search_location_match = ($search_location === '' || stristr($business->address, $search_location) !== false);
+    $search_location_match = empty($search_location) || stripos($business['address'], $search_location) !== false;
 
-    if ($search_term_match && $search_location_match) {
-        $matches[] = $business;
-    }
-}
-
+    return $search_term_match && $search_location_match;
+});
 
 // Output the search results as HTML
 if (count($matches) > 0) {
     foreach ($matches as $match) {
-      if ($page_name == "index.html") {
-        echo "<div class='col-lg-3 col-md-4 col-sm-6 col-12'>
-
-        <div class='business-thumbnail'>
-            <a href='#'>
-              <img
-                src='{$match->logo}' alt='Logo'
-              />
-            </a>
-            <div class='business-details'>
-              <h3 class='business-name'><a href='#'>{$match->name}</a></h3>
-              <p class='business-address'><a href='#'>{$match->address}</a></p>
-              <p class='business-category'>{$match->category}</p>
+        if ($page_name == "index.html") {
+            echo "<div class='col-lg-3 col-md-4 col-sm-6 col-12'>
+                    <div class='business-thumbnail'>
+                        <a href='#'>
+                            <img src='{$match['logo']}' alt='Logo' />
+                        </a>
+                        <div class='business-details'>
+                            <h3 class='business-name'><a href='#'>{$match['name']}</a></h3>
+                            <p class='business-address'><a href='#'>{$match['address']}</a></p>
+                            <p class='business-category'>{$match['category']}</p>
+                        </div>
+                    </div>
+                  </div>";
+        } else if ($page_name == 'search_page.html') {
+            echo "<div class='container'>
+            <div class='row'>
+              <div class='col-md-4'>
+                <img
+                src='{$match['logo']}'
+                  class='img-fluid business-img'
+                  alt='Business Image'
+                />
+              </div>
+              <div class='col-md-8'>
+                <div class='business-container'>
+                  <h2 class='business-name'>{$match['name']}</h2>
+                  <p class='business-info'>Address: {$match['address']}</p>
+                  <p class='business-info business-website'>
+                    Website: <a href='#'>{$match['website']}</a>
+                  </p>
+                  <p class='business-description'>
+                  {$match['description']}
+                  </p>
+                </div>
+              </div>
             </div>
-          </div>
-      </div>";
-      }
-      else if ($page_name == "search_page.html") {
-        echo "<h2>{$match->name}</h2>
-        <img src='{$match->logo}' alt='Logo'>
-        <p>{$match->description}</p>
-        <p>Address: {$match->address}</p>
-        <p>Phone: {$match->phone}</p>
-        <p>Email: {$match->email}</p>
-        <p>Website: {$match->website}</p>
-        <hr>";
-      }
-        
-       
+          </div>";
+        }
     }
 } else {
     echo "<p>No matches found</p>";
