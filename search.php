@@ -38,40 +38,36 @@ if (count($matches) > 0) {
         if ($page_name == "index.html") {
             echo "<div class='col-lg-3 col-md-4 col-sm-6 col-12'>
                     <div class='business-thumbnail'>
-                        <a href='#'>
+                    <a href='landing_page.php?name={$match['name']}'>
                             <img src='{$match['logo']}' alt='Logo' />
                         </a>
                         <div class='business-details'>
-                            <h3 class='business-name'><a href='#'>{$match['name']}</a></h3>
+                            <h3 class='business-name'><a href='landing_page.php?name={$match['name']}'>{$match['name']}</a></h3>
                             <p class='business-address'><a href='#'>{$match['address']}</a></p>
                             <p class='business-category'>{$match['category']}</p>
                         </div>
                     </div>
                   </div>";
         } else if ($page_name == 'search_page.html') {
-            echo "<div class='container'>
-            <div class='row'>
-              <div class='col-md-4'>
-                <img
-                src='{$match['logo']}'
-                  class='img-fluid business-img'
-                  alt='Business Image'
-                />
-              </div>
-              <div class='col-md-8'>
-                <div class='business-container'>
-                  <h2 class='business-name'>{$match['name']}</h2>
-                  <p class='business-info'>Address: {$match['address']}</p>
-                  <p class='business-info business-website'>
-                    Website: <a href='#'>{$match['website']}</a>
-                  </p>
-                  <p class='business-description'>
+          echo "<div class='container'>
+          <div class='row' onclick=\"redirectToLandingPage('{$match['name']}');\">
+            <div class='col-md-4'>
+              <img src='{$match['logo']}' class='img-fluid business-img' alt='Business Image'/>
+            </div>
+            <div class='col-md-8'>
+              <div class='business-container'>
+                <h2 class='business-name'>{$match['name']}</h2>
+                <p class='business-info'>Address: {$match['address']}</p>
+                <p class='business-info business-website'>
+                  Website: <a href='#'>{$match['website']}</a>
+                </p>
+                <p class='business-description'>
                   {$match['description']}
-                  </p>
-                </div>
+                </p>
               </div>
             </div>
-          </div>";
+          </div>
+        </div>";
         }
     }
 } else {
@@ -79,3 +75,10 @@ if (count($matches) > 0) {
 }
 
 ?>
+
+<script>
+  function redirectToLandingPage(name) {
+    var url = 'landing_page.php?name=' + encodeURIComponent(name);
+    window.location.href = url;
+  }
+</script>

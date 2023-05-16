@@ -13,10 +13,10 @@
           <div class="col-md-3">
             <h4>Contact Us</h4>
             <ul class="list-unstyled">
-              <li>123 Main Street</li>
-              <li>Anytown, USA 12345</li>
-              <li>Phone: (123) 456-7890</li>
-              <li>Email: info@example.com</li>
+              <li>Purok I</li>
+              <li>Tanza, Boac</li>
+              <li>Phone: 0987 654 3210</li>
+              <li>Email: duquench@gmail.com</li>
             </ul>
           </div>
           <div class="col-md-3">
